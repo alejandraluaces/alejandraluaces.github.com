@@ -54,37 +54,40 @@ blockquote{
 }
 
 a:link {
-  color:#ff6666;
+  color: #ff6666;
   text-decoration: none;
 }
 
 a:hover {
-  color:#c0c0c0;} 
+  color: #c0c0c0;} 
+
+a:visited{
+  color: #ff6666;
+}
 
 #wrapper {
   width: 700px;
-  border: 0px solid #000000;
+  padding-top: 100px;
   background: #ffffff;
   margin: 0 auto 0 auto;
   padding: 0 auto 20;
-  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
 }
 
-#header{
-  background-color: #ffffff;
-  font-weight: 400;
-}
-
-#menu{
-  height: 30px;
-  background: #ffffff;
+header p{
   font-family: 'PT Sans', sans-serif;
-  float: left;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: .4em;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #000000;
+  color: #c0c0c0;
 }
 
 #content{
   font-size: .8em;
+  font-family: 'PT Sans', sans-serif;
   color: #000000; 
 }
 
