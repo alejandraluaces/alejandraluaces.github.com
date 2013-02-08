@@ -4,5 +4,5 @@ auto: true
 pygments: true
 markdown: rdiscount
 url: http://alejandraluaces.com
-permalink: /:title.html
+permalink: /blog/:title.html
 
