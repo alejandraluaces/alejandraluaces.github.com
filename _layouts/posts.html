@@ -4,10 +4,9 @@
   <head>
     <meta charset="UTF-8">
     <html lang="en">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for alejandraluaces.com" href="/feed.xml" />
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../../../css/normalize.css" media="screen">
-    <link rel="stylesheet" href="../../../css/style.css"  media="screen">
+    <link rel="stylesheet" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" href="css/style.css"  media="screen">
     <title>{{ page.title }}</title>
   </head>
   <body>
@@ -19,7 +18,15 @@
       </header>
 
       <div id="content">
-        {{ content }}
+        <div class="inner-margin">
+          <article>
+            <header>
+              <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+              <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
+            </header>
+            {{ content }}
+          </article>
+        </div>
       </div>
 
     </div>
