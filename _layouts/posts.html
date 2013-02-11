@@ -13,7 +13,7 @@
 
     <div id="wrapper">
       <header>
-        <a href="/blog/"><img src="images/bolt.png" class="img"></a><br>
+        <a href="/"><img src="images/bolt.png" class="img"></a><br>
           <p>I'm a <strong>Resident Design Apprentice</strong> at <a href="http://www.8thlight.com">8th Light, Inc.</a><br>Follow me on <a href="www.twitter.com/alejandraluaces">Twitter</a>, <a href="www.dribbble.com/alejandraluaces">dribbble</a>, or send me <a href="mailto:aluaces@8thlight.com">an e-mail</a>. </p> 
       </header>
 
@@ -21,7 +21,7 @@
         <div class="inner-margin">
           <article>
             <header>
-              <h2><a href="/blog{{ page.url }}">{{ page.title }}</a></h2>
+              <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
               <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
             </header>
             {{ content }}
