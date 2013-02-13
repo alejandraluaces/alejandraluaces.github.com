@@ -67,28 +67,38 @@ a:visited{
 }
 
 #wrapper {
-  width: 700px;
-  padding-top: 100px;
+  width: 900px;
+  padding-top: 0px;
   background: #ffffff;
-  margin: 0 auto 0 auto;
-  padding: 0 auto 20;
-  font-weight: 400;
-}
-
-header p{
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  text-align: center;
-  padding-bottom: 15px;
-  border-bottom: 1px dotted #c0c0c0;
-  color: #c0c0c0;
+  margin: auto;
+  padding: auto;
+  
 }
 
 #content{
-  font-size: .8em;
+  width: 620px;
+  font-size: .7em;
   font-family: 'PT Sans', sans-serif;
-  color: #000000; 
+  font-weight: 400;
+  color: #333333; 
+  float: right;
+  margin-top: 40px;
+}
+
+#sidebar{
+  width: 200px;
+  float: left;
+  position: fixed;
+  left:150px;
+  top:10%;
+}
+
+#sidebar p{
+  font-size: 1em;
+  text-align: justify;
+  color: #c0c0c0;  
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
 }
 
 #footer{
@@ -105,14 +115,8 @@ header p{
   padding: 10px;
 }
 
-.nav-margin{
-  padding-left: 60px;
-  padding-top: 100px;
-}
-
 .img{
   margin: 1.5em;
-  border: none;
   display: block;
 }
 
