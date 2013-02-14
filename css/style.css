@@ -67,36 +67,38 @@ a:visited{
 }
 
 #wrapper {
-  width: 900px;
+  width: 56.25em;
   padding-top: 0px;
   background: #ffffff;
   margin: auto;
-  padding: auto;
-  
+  max-width: 56.25em;
 }
 
 #content{
-  width: 620px;
+  width: 48.75em;
   font-size: .7em;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   color: #333333; 
   float: right;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 #sidebar{
-  width: 200px;
+  width: 13.5em;
   float: left;
   position: fixed;
-  left:150px;
+  left: 20%;
+  max-width: 200;
   top:10%;
+  border-right: 1px #c0c0c0 solid;
+  padding-left: 10px;
 }
 
 #sidebar p{
   font-size: 1em;
-  text-align: justify;
   color: #c0c0c0;  
+  text-align: left;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
 }
