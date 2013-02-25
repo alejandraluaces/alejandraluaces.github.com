@@ -1,0 +1,171 @@
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 4em !important;
+  position: absolute;
+  left: 6em;
+  color: #444;
+}
+
+h2 {
+  font-family: 'Droid Serif', serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #f8f8f8;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  line-height:1em;
+  padding-bottom: 0em;
+}
+
+h3 {
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: .7em;
+  color: #e8e8e8;
+}
+
+p {
+  padding-top: 1em;
+  font-family: 'Droid Serif', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #e8e8e8;
+  position: static;
+  left: 50%;
+}
+
+a:link {
+  color: #ff6666;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #c0c0c0;} 
+
+a:visited{
+    color: #ff6666;
+}
+
+#head {
+    background-image: url('woodgrain.png');
+    background-position: center;
+    background-repeat: repeat;
+    margin: auto;
+    height: 33em;
+    text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 18em;
+  left: 33em;
+  z-index: 2000;
+  margin-right: auto;
+}
+
+#container1 {
+    position: absolute;
+    top: 33em;
+    padding-left: 6em;
+    z-index: 200;
+    height: 40em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.background2 {
+    background-color: #FF9999;
+}
+
+#container2 {
+    position: relative;
+    text-align: right;
+    z-index: 200;
+    padding-left:5em;
+    padding-right: 5em;
+    height: 40em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container3 {
+    position: absolute;
+    background-color: #ff6666;
+    text-align: center;
+    top: 67em;
+    height: 20em;
+    width: 100%;
+}
+
+.arrows {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 200;
+  top: 0em;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/*Bars*/
+
+#right {
+  position: absolute;
+  left: 60%;
+}
+
+.bar_mortice {
+    height: 25px;
+    background: #e0e0e0;
+    border: 2px solid #444;
+    width: 30em;
+    -moz-box-shadow: inset 0px 1px 2px 0px #333;
+    box-shadow: inset 0px 1px 2px 0px #333;
+    line-height: 1em;
+    padding-top: 0em;
+}
+
+.progress {
+  height: 23px;
+  background: #FFF;
+  float: left;
+  border-top: 1px solid #444;
+}
+
+.progressright {
+  height: 23px;
+  background: #FFF;
+  float: right;
+  border-top: 1px solid #444;
+}
+
+
+/*Colors*/
+
+.orange {
+    background-image: url('woodgrain.png');
+    background-position: center;
+    background-repeat: repeat;
+  -moz-box-shadow: inset 0px 1px 2px 0px #333;
+  box-shadow: inset 0px 1px 2px 0px #333;
+}
+
+.orange_mortice {
+  background: #444;
+  border-color: #222;
+}
+
+.blue {
+  background: #ff99cc;
+  -moz-box-shadow: inset 0px 1px 2px 0px #333;
+  box-shadow: inset 0px 1px 2px 0px #333;
+}
+.blue_mortice {
+  background: #640;
+  border-color: #960;
+}
