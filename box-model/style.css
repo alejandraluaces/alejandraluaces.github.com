@@ -24,10 +24,6 @@ body {
   width: 100%;
 }
 
-strong {
-  font-family: 'CabinSemiBold', sans-serif;
-}
-
 header {
   text-align: center;
   padding-bottom: 2em;
@@ -59,19 +55,21 @@ h3 {
   line-height: 1em;
 }
 
+strong {
+  font-family: 'CabinSemiBold';
+  color: #333;
+}
+
 p {
   font-family: 'CabinRegular', sans-serif;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.25em;
   color: #444;
 }
 
 pre {
   background-color: #fcded8;
   border-radius: 4px;
-  margin-left: 2em;
-  display: inline-block;
-  width: 70%;
 }
 
 footer {
@@ -86,24 +84,11 @@ footer {
 }
 
 blockquote{
-  border-left: 10px solid #d3a297;
+  border-left: 1em solid #a63b3b;
   text-align: justify;
   font-size: .75em;
   padding-left: 20px;
   line-height: 1.75em;
-  margin: 4em 0em 4em 5em;
-}
-
-.bubble {
-  background-color: #a8bcc1;
-  padding: 1em;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -moz-box-shadow: 3px 3px 4px #d8d8d8;
-  -webkit-box-shadow: 3px 3px 4px #d8d8d8;
-  box-shadow: 3px 3px 4px #d8d8d8;
-  margin-bottom: 2em;
 }
 
 .scale {
@@ -118,18 +103,6 @@ blockquote{
   max-width: 33em;
   margin-right: auto;
   margin-left: auto;
-}
-
-figure {
-  text-align: center;
-  margin-bottom: 3em;
-}
-
-figcaption {
-  text-align: justify;
-  font-size: 70%;
-  margin-top: -1em;
-  width: 100%;
 }
 
 @font-face {
@@ -190,3 +163,35 @@ a:hover {
 a:visited{
     color: #fff;
 }
+
+/*Box-Object Diagram---------------*/
+
+.margin {
+background-color: #ac877f;
+width: 100%;
+height: 11em;
+padding: 1em 0 0 0;
+}
+
+.padding {
+background-color: #5b999c;
+border: #a63b3b solid 1em;
+width: 80%;
+height: 6em;
+margin: auto;
+padding: 1.8em 0 0 0;
+}
+
+.content-area {
+background-color: #e8e8e8;
+width: 357px;
+height: .75em;
+margin: auto;
+font-family: 'BebasNeueRegular';
+font-size: 5em;
+line-height: .9em;
+}
+
+
+
+

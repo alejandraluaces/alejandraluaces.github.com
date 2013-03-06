@@ -1,0 +1,174 @@
+/*Main-------------------------*/
+
+body {
+  color: #444;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 80em;
+}
+
+.inline {
+  width: auto;
+  max-width: 40em;
+  text-align: justify;
+  float: left;
+}
+
+.block {
+  max-width: 40em;
+  width: 100%;
+  text-align: justify;
+  float: right;
+}
+
+.inlineblock {
+  max-width: 80em;
+}
+
+strong {
+  font-family: 'CabinSemiBold', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 2em;
+  background-image: url('background.png');
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "SailRegular", sans-serif;
+  font-size: 4.75em;
+  line-height: 1.5em;
+  color: #444;
+  top: 1em;
+  position: relative;
+  padding-bottom: 1em;
+}
+
+h2 {
+  font-family: 'CabinSemiBold', sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #444;
+}
+
+p {
+  font-family: 'CabinRegular', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #444;
+}
+
+pre {
+  background-color: #fcded8;
+  border-radius: 4px;
+}
+
+footer {
+  font-family: 'CabinRegular';
+  background-image: url('background.png');
+  font-size: 120%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+blockquote{
+  border-left: 10px solid #d3a297;
+  text-align: justify;
+  font-size: .75em;
+  padding-left: 20px;
+  line-height: 1.75em;
+  margin: 4em 0em 4em 5em;
+}
+
+.scale {
+  font-size: 70%;
+  background-color: #fcded8;
+  padding: 0 .5em 0 .5em;
+}
+
+/*Links, Images and Fonts---------------*/
+
+.properties {
+  max-width: 33em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+figcaption {
+  text-align: justify;
+  font-size: 70%;
+  margin-top: -1em;
+  width: 100%;
+}
+
+@font-face {
+    font-family: 'SailRegular';
+    src: url('fonts/Sail-Regular-webfont.eot');
+    src: url('fonts/Sail-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Sail-Regular-webfont.woff') format('woff'),
+         url('fonts/Sail-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Sail-Regular-webfont.svg#SailRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleLight';
+    src: url('fonts/Amble-Light-webfont.eot');
+    src: url('fonts/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Light-webfont.woff') format('woff'),
+         url('fonts/Amble-Light-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Light-webfont.svg#AmbleLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleItalic';
+    src: url('fonts/Amble-Italic-webfont.eot');
+    src: url('fonts/Amble-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Italic-webfont.woff') format('woff'),
+         url('fonts/Amble-Italic-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Italic-webfont.svg#AmbleItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmbleBold';
+    src: url('fonts/Amble-Bold-webfont.eot');
+    src: url('fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Bold-webfont.woff') format('woff'),
+         url('fonts/Amble-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Bold-webfont.svg#AmbleBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:link {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #444;} 
+
+a:visited{
+    color: #fff;
+}
