@@ -26,7 +26,6 @@ body {
 
 header {
   text-align: center;
-  padding-bottom: 2em;
   background-image: url('background.png');
   overflow: hidden;
 }
@@ -36,15 +35,12 @@ h1 {
   font-size: 4.75em;
   line-height: 1.5em;
   color: #444;
-  top: 1em;
   position: relative;
-  padding-bottom: 1em;
 }
 
 h2 {
   font-family: 'CabinSemiBold', sans-serif;
   font-size: 2em;
-  line-height: 1.5em;
   color: #444;
 }
 
