@@ -10,7 +10,7 @@ body {
 }
 
 .inline {
-  width: auto;
+  width: auto; 
   max-width: 40em;
   text-align: justify;
   float: left;
@@ -28,7 +28,7 @@ body {
 }
 
 strong {
-  font-family: 'CabinSemiBold', sans-serif;
+  font-family: 'AmbleBold', sans-serif;
 }
 
 header {
@@ -49,14 +49,14 @@ h1 {
 }
 
 h2 {
-  font-family: 'CabinSemiBold', sans-serif;
+  font-family: 'AmbleItalic', sans-serif;
   font-size: 2em;
   line-height: 1.5em;
   color: #444;
 }
 
 p {
-  font-family: 'CabinRegular', sans-serif;
+  font-family: 'AmbleLight', sans-serif;
   font-size: 1.5em;
   line-height: 1.5em;
   color: #444;
@@ -68,8 +68,7 @@ pre {
 }
 
 footer {
-  font-family: 'CabinRegular';
-  background-image: url('background.png');
+  font-family: 'AmbleLight', sans-serif;
   font-size: 120%;
   padding-top: 1em;
   padding-bottom: 1em;
