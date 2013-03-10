@@ -2,29 +2,16 @@
 
 body {
   color: #444;
+  background-color: #998773;
+  font-family: 'AmbleLight', sans-serif;
 }
 
 .main-container {
-  width: 100%;
-  max-width: 80em;
-}
-
-.inline {
-  width: auto; 
-  max-width: 40em;
-  text-align: justify;
-  float: left;
-}
-
-.block {
-  max-width: 40em;
-  width: 100%;
-  text-align: justify;
-  float: right;
-}
-
-.inlineblock {
-  max-width: 80em;
+  width: 74%;
+  max-width: 73em;
+  background-color: #d3c5b8;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 strong {
@@ -34,42 +21,49 @@ strong {
 header {
   text-align: center;
   padding-bottom: 2em;
-  background-image: url('background.png');
-  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+em {
+    font-family: "AmbleItalic", sans-serif;
+}
+
+.intro {
+  background-color: #bfaf5e;
+}
+
+.intro p {
+  color: #333;
 }
 
 h1 {
-  font-family: "SailRegular", sans-serif;
-  font-size: 4.75em;
-  line-height: 1.5em;
+  font-family: "AmbleItalic", sans-serif;
+  font-size: 2em;
+  line-height: 1em;
   color: #444;
-  top: 1em;
-  position: relative;
-  padding-bottom: 1em;
 }
 
 h2 {
   font-family: 'AmbleItalic', sans-serif;
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 1.25em;
+  line-height: 1em;
   color: #444;
 }
 
 p {
-  font-family: 'AmbleLight', sans-serif;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 125%;
+  line-height: 1.3em;
   color: #444;
 }
 
-pre {
-  background-color: #fcded8;
-  border-radius: 4px;
+code {
+ font-size: 90%;
+ background-color: #b2ccba;
 }
 
+
 footer {
-  font-family: 'AmbleLight', sans-serif;
-  font-size: 120%;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-top: 2em;
@@ -86,31 +80,108 @@ blockquote{
   margin: 4em 0em 4em 5em;
 }
 
-.scale {
-  font-size: 70%;
-  background-color: #fcded8;
-  padding: 0 .5em 0 .5em;
+/*Inline-Block Content------------------*/
+
+figure {
+  margin-top: 2em;
+}
+section {
+  width: 80%;
+  max-width: 60em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border-radius: 6px;
+  text-align: justify;
+  padding: .1em 1em .1em 1em;
+  -moz-box-shadow: inset 0 3px 0 #888;
+  -webkit-box-shadow: inset 0 3px 0 #888;
+  box-shadow: inner 0 3px 0 #888;
+}
+
+.caption {
+  font-size: 100%;
+  display: block;
+  margin-top: 1em;
+}
+
+.inline-elements {
+  background-color: #8fa898;
+}
+
+.block-elements {
+  background-color: #8fa898;
+}
+
+.inline-block {
+  background-color: #8fa898;
+}
+
+.example1 {
+background-color: #c5603f;
+color: #ffb9a6;
+text-align: center;
+width: 2em;
+display: inline;
+margin: 0 1em 0 0;
+padding: .3em;
+font-size: 150%;
+}
+
+.example2 {
+background-color: #687a6e;
+color: #8fa898;
+text-align: center;
+display: block;
+font-size: 150%;
+margin: auto;
+padding: .3em 0 .2em 0;
+}
+
+.example3 {
+background-color: #c5603f;
+color: #ffb9a6;
+text-align: center;
+display: block;
+font-size: 150%;
+margin: auto;
+padding: .3em 0 .3em 0;
+}
+
+.example4 {
+background-color: #684e4a;
+color: #ffddd7;
+text-align: center;
+display: block;
+font-size: 150%;
+margin: auto;
+padding: .3em 0 .3em 0;
+}
+
+.example5 {
+background-color: #c5603f;
+color: #ffb9a6;
+text-align: center;
+display: inline-block;
+font-size: 150%;
+padding: .3em 0 .3em 0;
+width: 20%;
+height: 4em;
+}
+
+.example6 {
+background-color: #687a6e;
+color: #8fa898;
+text-align: center;
+display: inline-block;
+font-size: 150%;
+padding: .3em 0 .3em 0;
+width: 80%;
+height: 2em;
 }
 
 /*Links, Images and Fonts---------------*/
-
-.properties {
-  max-width: 33em;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-figure {
-  text-align: center;
-  margin-bottom: 3em;
-}
-
-figcaption {
-  text-align: justify;
-  font-size: 70%;
-  margin-top: -1em;
-  width: 100%;
-}
 
 @font-face {
     font-family: 'SailRegular';
