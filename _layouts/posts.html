@@ -4,34 +4,37 @@
   <head>
     <meta charset="UTF-8">
     <html lang="en">
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for alejandraluaces.com" href="/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400|PT+Sans:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css" media="screen">
     <link rel="stylesheet" href="css/style.css"  media="screen">
+    <link rel="stylesheet" href="css/fontello-embedded.css"  media="screen">
     <title>{{ page.title }}</title>
   </head>
+
   <body>
-
-
-<body>
     <div id="wrapper"> 
-    <div id="sidebar"> 
+
       <header>
-        <a href="/"><img src="images/antlers.png"></a>
+        <a href="/"><h1>alejandra luaces</h1></a>
+        <h2>blog page</h2>
+        <section class="icons">
+          <a href="http://github.com/alejandraluaces"><span class="icon-github icon"></span></a>
+          <a href="http://twitter.com/alejandraluaces"><span class="icon-twitter icon"></span></a>
+          <a href="http://pinterest.com/aluaces"><span class="icon-pinterest icon"></span></a>
+          <a href="http://dribbble.com/alejandraluaces"><span class="icon-dribbble icon"></span></a>
+        </section>
+        <h4>Looking for my projects?</h4>
+        <div class="btn"><a href="../projects/index.html"><h3>Projects</h3></a></div>
       </header>
-      <p>I'm Alejandra, a <em>Resident Design Apprentice</em> at a software development company called <a href="www.8thlight.com">8th Light</a>.  You can find me on twitter, <a href="www.dribbble.com/alejandraluaces">dribbble</a>, or shoot me an <a href="mailto:aluaces@8thlight.com">e-mail</a>.</p>
-      <a href="/projects.html">Projects</a>
-    </div>
-      <div id="content">
-        <div class="inner-margin">
+
+        <section>
           <article>
-            <header>
-              <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-              <h3>{{ page.date | date: "%B %d, %Y" }}</h3>
-            </header>
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <h4>{{ page.date | date: "%B %d, %Y" }}</h4>
             {{ content }}
           </article>
-        </div>
-      </div>
+        </section>
 
     </div>
   </body>

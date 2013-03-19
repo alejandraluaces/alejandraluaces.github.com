@@ -1,0 +1,14 @@
+---
+layout: index
+title: Alejandra's Blog
+---
+{% for post in site.posts do %}
+  <article>
+	  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
+    {{ post.content }}
+    <footer>
+    </footer>
+  </article>
+{% endfor %}
+</div>
