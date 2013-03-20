@@ -181,12 +181,12 @@ a:visited{
 }
 
 @media screen and (max-width: 400px) {
-  body {
+  
+  article {
     font-size: 100%;
-    width: 95%;
   }
 
-#wrapper  {
+  #wrapper  {
     max-width: 30em;
 }
 
