@@ -171,3 +171,22 @@ a:hover {
 a:visited{
   color: #3e454c;
 }
+
+/*Responsive----------------*/
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 100%;
+    width: 95%;
+  }
+
+  img {
+    max-width: 70%;
+  }
+}
+
