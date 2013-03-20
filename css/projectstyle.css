@@ -180,20 +180,20 @@ a:visited{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 4000px) {
   
   article {
     font-size: 100%;
   }
 
   #wrapper  {
-    max-width: 30em;
+    width: 100%;
 }
 
   header {
     font-size: 80%;
     height: 80%;
-    max-width: 30em;
+
   }
 
   img {
