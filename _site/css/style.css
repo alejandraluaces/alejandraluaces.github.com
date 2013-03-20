@@ -185,6 +185,10 @@ a:visited{
     width: 95%;
   }
 
+#wrapper  {
+    max-width: 30em;
+}
+
   header {
     font-size: 80%;
     height: 80%;
