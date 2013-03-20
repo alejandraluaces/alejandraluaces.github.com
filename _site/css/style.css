@@ -192,9 +192,10 @@ a:visited{
   header {
     font-size: 80%;
     height: 80%;
+    max-width: 30em;
   }
 
   img {
-    max-width: 70%;
+    max-width: 50%;
   }
 }

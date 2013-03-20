@@ -180,23 +180,23 @@ a:visited{
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   body {
     font-size: 100%;
     width: 95%;
   }
 
+#wrapper  {
+    max-width: 30em;
+}
+
   header {
     font-size: 80%;
     height: 80%;
-  }
-
-  article {
-    width: 100%;
+    max-width: 30em;
   }
 
   img {
-    max-width: 70%;
+    max-width: 50%;
   }
 }
-
