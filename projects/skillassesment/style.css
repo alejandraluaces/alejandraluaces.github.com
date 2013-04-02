@@ -11,7 +11,7 @@ body {
   width: 90%;
   max-width: 30em;
   margin: 0em auto;
-  background-image: url('bgpattern.png');
+  background-image: url('images/bgpattern.png');
   background-repeat: repeat;
   background-position: top;
 }

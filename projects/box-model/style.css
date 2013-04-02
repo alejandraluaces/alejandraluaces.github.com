@@ -17,7 +17,7 @@ body {
 }
 
 .points {
-  background-image: url('points.png');
+  background-image: url('images/points.png');
   background-repeat: repeat-x;
   background-position: top center;
   padding-top: 5em;
@@ -26,7 +26,7 @@ body {
 
 header {
   text-align: center;
-  background-image: url('background.png');
+  background-image: url('images/background.png');
   overflow: hidden;
 }
 
