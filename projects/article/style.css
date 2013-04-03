@@ -1,0 +1,107 @@
+
+/*Basic Layout Styles-------------------------*/
+
+body {
+  color: #333;
+}
+
+.main-container {
+  max-width: 24em;
+  min-width: 13em;
+  margin: 3em auto;
+}
+
+h1 {
+  font-size: 3.75em;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: -4px;
+  line-height: .75em;
+  margin: 0;
+}
+
+p {
+  font-family: 'Baskerville', 'Goudy Old Style', serif;
+	font-size: 1em;
+  margin-bottom: 3px;
+  color: #111;
+}
+
+.names {
+  font-family: 'Arial', sans-serif;
+  font-size: .80em;
+}
+
+.blue {
+  color: #2590e8;
+  font-weight: bold;
+}
+
+.twitter-bar {
+  background-color: #2590e8;
+  padding: .5em 0;
+  font-family: 'Courier', serif;
+  font-size: .9em;
+  text-transform: uppercase;
+  margin: 1em 0;
+  color: #fff;
+}
+
+.inline {
+  display: inline;
+  padding-left: 8px;
+}
+
+.column {
+  display: inline-block;
+  width: 30%;
+}
+
+.colone {
+float: left;
+}
+
+.coltwo {
+
+}
+
+.colthree {
+float: right;
+}
+/*Links, Images and Fonts---------------*/
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  	color: #222;
+}
+
+a:hover {
+    color: #6e5d84;
+  } 
+
+a:visited {
+    color: #222;
+}
+
+/*MobileStuff-----------*/
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    font-size: 115%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 125%;
+  }
+}
