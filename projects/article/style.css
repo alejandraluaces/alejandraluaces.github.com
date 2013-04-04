@@ -11,8 +11,12 @@ body {
   margin: 3em auto;
 }
 
+header img {
+  margin-bottom: 1em;
+}
+
 h1 {
-  font-size: 3.75em;
+  font-size: 3.7em;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: -4px;
   line-height: .75em;
@@ -21,19 +25,27 @@ h1 {
 
 p {
   font-family: 'Baskerville', 'Goudy Old Style', serif;
-	font-size: 1em;
-  margin-bottom: 3px;
+	font-size: .9em;
   color: #111;
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .names {
-  font-family: 'Arial', sans-serif;
-  font-size: .80em;
+  font-family: 'Sintony', sans-serif;
+  font-size: .6em;
 }
 
 .blue {
   color: #2590e8;
   font-weight: bold;
+}
+
+.grey {
+  color: #a0a0a0;
 }
 
 .twitter-bar {
@@ -46,27 +58,64 @@ p {
   color: #fff;
 }
 
-.inline {
+.icon {
   display: inline;
   padding-left: 8px;
+}
+
+.topcolumn-wrapper {
+  width: 100%;
+  border-bottom: 1px dashed #222;
+}
+
+.topcolumn-wrapper p {
+  font-family: 'Sintony', sans-serif;
+  font-size: .6em;
 }
 
 .column {
   display: inline-block;
   width: 30%;
+  margin: .5em 0;
+  padding-bottom: 2em;
 }
 
-.colone {
-float: left;
+.column p {
+  font-family: 'Sintony', sans-serif;
+  font-size: .6em;
+  margin-top: .1em;
 }
 
-.coltwo {
-
+.rightcolumn {
+  display: inline-block;
+  width: 30%;
 }
 
-.colthree {
-float: right;
+.rightcolumn p {
+  font-family: 'Sintony', sans-serif;
+  font-size: .6em;
+  padding-bottom: 1.5em;
 }
+
+.verticalborder {
+  border-right: 1px solid #333;
+  padding-right: .5em;
+}
+
+.twocolumn {
+  width: 63%;
+  display: inline-block;
+  margin: 1em .2em 0 .2em;
+}
+
+footer {
+  width: 93%;
+  border: 1px dashed #333;
+  font-family: 'Sintony', sans-serif;
+  font-size: .6em;
+  padding: .75em 2em .75em .75em
+}
+
 /*Links, Images and Fonts---------------*/
 
 a {
