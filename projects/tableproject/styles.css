@@ -1,0 +1,53 @@
+body {
+	background-image: ;
+}
+
+table {
+	background-color: #c0c0c0;
+	color: #333;
+	font-family: 'Arial', sans-serif;
+	font-size: 1em;
+	width: 70em;
+}
+
+caption {
+
+}
+
+th {
+	background-color: #e8e8e8;
+	color: ;
+}
+
+td {
+	text-align: center;
+	padding: .5em;
+}
+
+.march{
+	background-color: #ffff66;
+}
+
+.april {
+	background-color: #ffff99;
+}
+
+.movetype {
+	background-color: #efefef;
+}
+
+.weekone {
+
+}
+
+.weektwo {
+
+}
+
+.weekthree {
+
+}
+
+.weekfour {
+
+}

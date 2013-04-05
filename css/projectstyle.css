@@ -144,18 +144,6 @@ img {
   border: 1px solid #444;
 }
 
-.leftwrap {
-  display: inline;
-  float: left;
-  margin-right: 2em;
-}
-
-.rightwrap {
-  display: inline;
-  float: right;
-  margin-left: 2em;
-}
-
 a:link {
   color: #ff7f66;
   text-decoration: none;
@@ -174,24 +162,3 @@ a:visited{
 }
 
 /*Responsive----------------*/
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 100%;
-  }
-  img {
-    width: 50%;
-    height: 50%;
-  }
-@media screen and (min-width: 900px) {
-  body {
-    font-size: 110%;
-  }
-}
-
-@media screen and (max-width: 4000px) {
-  
-  article {
-    font-size: 100%;
-  }
-}
