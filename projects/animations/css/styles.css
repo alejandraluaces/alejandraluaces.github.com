@@ -163,6 +163,10 @@ a:visited {
   color: #e8e8e8;
 }
 
+.compound-container {
+  max-width: 80em;
+}
+
 .description {
   width: 80%;
   margin: auto;
@@ -327,6 +331,7 @@ a:visited {
   position: relative;
   top: 26em;
   color: #fff;
+  display: block;
 }
 
 .blurb h1 {
@@ -342,10 +347,12 @@ a:visited {
 
 .example {
   display: block;
+  margin: auto;
+  width: 60em;
 }
 
 .circle {
-  -webkit-animation-name: suspense 5s 0s infinite alternate;
+  -webkit-animation: suspense 5s 0s infinite alternate;
   -moz-animation-name:    suspense 5s 0s infinite alternate;
   animation-name:         suspense 5s 0s infinite alternate;
   
