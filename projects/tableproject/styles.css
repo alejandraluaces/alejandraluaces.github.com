@@ -1,53 +1,49 @@
 body {
-	background-image: ;
+	background-color: #fff7f2;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.maincontainer {
+	width: 100%;
 }
 
 table {
-	background-color: #c0c0c0;
+	background-color: #555;
 	color: #333;
 	font-family: 'Arial', sans-serif;
 	font-size: 1em;
-	width: 70em;
+	font-family: 'PT Sans', sans-serif;
 }
 
-caption {
-
+.days {
+	width: 8em;
 }
 
-th {
-	background-color: #e8e8e8;
-	color: ;
+.time {
+	background-color: #024059;
+	color: #f2f1df;
+}
+
+th, thead {
+	background-color: #bfaa84;
 }
 
 td {
+	background-color: #e0e0e0;
 	text-align: center;
 	padding: .5em;
 }
 
-.march{
-	background-color: #ffff66;
+strong {
+	font-weight: 700;
 }
 
-.april {
-	background-color: #ffff99;
+em {
+	font-weight: 400italic;
 }
 
-.movetype {
-	background-color: #efefef;
-}
+/*Shows-----------------*/
 
-.weekone {
-
-}
-
-.weektwo {
-
-}
-
-.weekthree {
-
-}
-
-.weekfour {
-
+.live {
+	background-color: #a5d8d3;
 }

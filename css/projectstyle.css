@@ -105,7 +105,8 @@ h3 {
 h4 {
   color: #555;
   font-size: 1.5em;
-  margin-top: 0em;
+  margin: 0em;
+  padding: 0em;
 }
 
 p {
@@ -114,7 +115,7 @@ p {
   font-weight: 400;
   text-align: justify;
   color: #555;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 em {
@@ -137,7 +138,7 @@ blockquote {
   font-size: 1.5em;
   margin: 1.5em;
   padding-left: 20px;
-  line-height: 1.75em;
+  line-height: 1.35em;
 }
 
 img {

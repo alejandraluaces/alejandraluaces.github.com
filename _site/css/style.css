@@ -96,6 +96,10 @@ h2 {
   color: #fff6e5;
 }
 
+article h2 {
+  color: #333 !important;
+}
+
 /*header button*/
 h3 { 
   color: #fff6e5;
@@ -114,7 +118,7 @@ p {
   font-weight: 400;
   text-align: justify;
   color: #555;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 em {
@@ -125,6 +129,7 @@ pre {
   font-family: 'Arvo' serif; font-weight: 400;
   font-size: 1.5em;
   background: #ffcccc;
+  display: inline;
 }
 
 blockquote {
@@ -136,23 +141,11 @@ blockquote {
   font-size: 1.5em;
   margin: 1.5em;
   padding-left: 20px;
-  line-height: 1.75em;
+  line-height: 1.35em;
 }
 
 img {
   border: 1px solid #444;
-}
-
-.leftwrap {
-  display: inline;
-  float: left;
-  margin-right: 2em;
-}
-
-.rightwrap {
-  display: inline;
-  float: right;
-  margin-left: 2em;
 }
 
 a:link {
@@ -174,29 +167,3 @@ a:visited{
 
 /*Responsive----------------*/
 
-@media screen and (min-width: 1024px) {
-  body {
-    font-size: 110%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  
-  article {
-    font-size: 100%;
-  }
-
-  #wrapper  {
-    max-width: 30em;
-    width: 100%;
-  }
-
-  header {
-    font-size: 80%;
-    height: 80%;
-  }
-
-  img {
-    max-width: 50%;
-  }
-}

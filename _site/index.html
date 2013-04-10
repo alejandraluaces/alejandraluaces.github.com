@@ -4,13 +4,13 @@
   <head>
     <meta charset="UTF-8">
     <html lang="en">
-<meta name=viewport
-  content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for alejandraluaces.com" href="../feed.xml" />
+    <meta name=viewport
+    content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for alejandraluaces.com" href="/feed.xml" />
     <link href='http://fonts.googleapis.com/css?family=Arvo:400|PT+Sans:400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/normalize.css" media="screen">
-    <link rel="stylesheet" href="../css/style.css"  media="screen">
-    <link rel="stylesheet" href="../css/fontello-embedded.css"  media="screen">
+    <link rel="stylesheet" href="/css/normalize.css" media="screen">
+    <link rel="stylesheet" href="/css/style.css"  media="screen">
+    <link rel="stylesheet" href="/css/fontello-embedded.css"  media="screen">
     <title>Alejandra Luaces</title>
   </head>
 
@@ -33,14 +33,100 @@
       <section>
         
   <article>
+	  <h2><a href="/designersvsdevelopers.html">Designers vs. Developers</a></h2>
+      <h4>April 08, 2013</h4>
+    <p>Some things never change, even over time. The resilience of cockroaches. The shape of bread (for the most part). The fact that razors still haven't adapted to the shin bone or knee. The fact that, somehow, everyone forgets to RSVP to everything.</p>
+<p>Unfortunately, in our industry, we will always have some beef between "designers" and "programmers". Even in more modern times where the phrase "web developer" has been coined, there still exists some animosity. So, what's the big deal?</p>
+
+<h2>Myth: Being a Designer is Easy/Designers are Dumb</h2>
+<p>This is not only degrading but, more importantly, very untrue. You know that quote by Einstein that has been completely overused (the one probably not even said by Einstein anyway)? "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid." Well, here, that holds a lot of truth. Confession time: I have never been great at math. Really, I hate it. Whenever I see numbers, I freeze up. It's not because I'm a woman, or because I'm dumb--it's just because I don't think that way. And, in a similar vein, logic and equations and parentheses freak me out. This is why I would not make a great programmer. </p>
+<p>But consider what I <em>am</em> capable of and what I <em>am</em> good at doing--I am good at helping programmers develop something that a client will be pleased to see. I am good at thinking like a consumer and making things less frustrating for consumers to use. I can't tell you how many times I've heard programmers say something along the lines of, "I know it looks bad, but I can't tell you why." Well, <em>I</em> can tell you why, and I can work with you to find a great solution that won't break anything. Yay!</p>
+<p>Do not underestimate my intellegence.  Instead, appreciate how I can help you deliver something that will be received well by someone who doesn't understand all the back-end stuff you spent weeks doing, so that all your hard work doesn't go to waste.</p>
+
+<h2>But, your books are smaller..</h2>
+<p>Sorry about that.</p>
+
+<h2>Cooperation and Communication Are Key</h2>
+<p>Though we think differently, that doesn't mean we have to work differently or segregate ourselves within the same project.  Cooperation is key: communication, flexibility and adaptability are, and always have been, valuable. And is certainly not impossible between the two. Pairing is great between designers and developers because changes can be made on-the-fly and things explained that otherwise would take days to get across.</p>
+<h2>The Crossover Model</h2>
+<p>Way back when (what, like two years ago?), "designers" got a bad rap from their less-skilled, lazier peers: the kind of designers that created everything in Photoshop, hardly knew how to code (and didn't care to learn), gave incomplete information (not providing a style guide), thought their role in the job was far superior, and took forever to produce anything. </p>
+<p>Though you still find people like that now, the number of professionals that are <em>not</em> like that is steadily growing. Now you have "web developers," the crossover vehicles/jack-of-all-trades of the web world. These people typically place a high value on both logical and spacial thinking, are up to date on web standards, who realize the imporance of brand continuity on various platforms/media, and are more quality employees because they place an emphasis on continuing education and personal growth. Having people like this around is great since programmers won't be needed for every little change.  Going into something like a <code>hiccup</code> layout and changing around both design elements and bits of code is easy for these Renaissance (wo)Men.</p>
+<h2>You're leaving ______ out..</h2>
+<p>Of course, describing two different kinds of people is not entirely possible since there's an exception to the rule.  The point is that "designers vs. developers" doesn't have to be one of those great historical face-offs. Thinking differently allows problems to surface that otherwise wouldn't have, and working together is a much more efficient way to get things done.</p>
+    <footer>
+    </footer>
+  </article>
+
+  <article>
+	  <h2><a href="/jekyll.html">Jekyll Woes</a></h2>
+      <h4>April 05, 2013</h4>
+    <p>For this apprenticeship, I was tasked with setting up my blog using Jekyll and Github Pages.  Though I barely managed and had lots of help, I have been able to both maintain it and make massive changes.  Like anything, with exposure and a "dive in head first" mentality, learning is somewhat easy. Google searches also help.</p>
+
+<p>Lately, I have been issues with my blog. First, the posts weren't showing up in the right "sections". Next, the images stopped working. Then, the layout.html/styles.css files weren't working. What gives? First, know a couple things about the way my blog is set up.</p>
+
+<p>The way my blog works is that I have two blogs within one. Confusing? Sure. But it works.</p>
+
+<pre>
+|--_config.yml
+|--_includes
+|--_layouts
+|  |--default.html
+|  |--post.html
+|--blog
+|  |--index.html
+|  |--_posts
+|  |  |--2012-04-06-hello-world.md
+|--projects
+|  |--index.html
+|  |--_posts
+|--index.html
+</pre>
+<p>Each section should have its own folder, wherein you'll have an index.html, a _posts folder, and perhaps some other folders (although not necessary): css, images, etc. You'll have two different html files in the layouts folder, and you'll direct to them from the yaml front matter included in all of the posts.</p>
+<p>Yaml is touchy. I learned this the hard way. My posts were in their respective sections (the _posts folder of each "separate" blog) and I was updating everything just as I should. So, what was the problem?</p>
+<p>Punctuation. Punctuation was all the problem. This is something I never would have been able to figure out myself, because I do not think like a programmer. I am not hard wired to question the punctuation in anything, where it's placed, or what it could mean. All I know is that gramatically, it makes sense, and so I'm using it.</p>
+<p>At the top of every blog post you'll put in the "_posts" folder, you'll have some Yaml that will tell the post how it will be laid out, where it is going on the page, and what the title and date are.  These are all user-specified.  If there is any punctuation in these, it will mess up.  I had a post in my blog/_posts/ folder whose title contained a colon. That little colon completely derailed my blog.</p>
+<h2>So, how did I find the error?</h2>
+<p>My mentor Justin showed me how to run <code>jekyll --no-auto --server</code>, which specifically tells you where your errors may be, the file name/location, and line number. It'll also let you know which character is throwing a wrench into the delicate innerworkings of your site. Pretty sweet.</p>
+<p>Erasing the _site directory is another thing that you might want to do as well if you're encountering problems like this. That'll ensure that you're working from a clean slate if you have any corrupt files, and will help to avoid having to make changes to a bunch of files.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+    </footer>
+  </article>
+
+  <article>
 	  <h2><a href="/gettingreal.html">Getting Real</a></h2>
       <h4>March 26, 2013</h4>
     <p>Recently, I finished up reading <em>Getting Real</em> by <a href="http://37signals.com/"><em>37signals</em></a>. When I was first assigned this reading, I was told I'd have a lot to say about it.</p>
 <p>But I don't. And here's why.</p>
 <p>8th Light is the first software company I have ever worked for. Therefore, I am somewhat of a blank slate. Several of my peers have the experience of working in massive companies, companies with management problems, companies that are not run by the principles outlined in this book.</p>
 <p>Luckily, because I am such a "blank slate", agile development seems natural to me. As a freelancer, I worked like this without knowing it had a name. It just seems like the easiest way to operate efficiently and get things done. Talk to the customer often, make changes based on evolving needs while sometimes saying "no," and delivering parts of the project once they are ready.</p>
-<p><em>Getting Real</em> is a book about more than just software development. It is a book that is accessible, easy to read, and simple to understand. In fact, my boyfriend picked it up and read it when I'd left it at home one day. He is a nurse: not even close to being in the same industry. Yet, the book inspired him.</p>
-<p>This book illustrates shedding excess and working with small steps rather than large, seemingly unattainable goals. It touches on creativity, and how it seems to flourish the more restrictions there are in place.  It lets you know that it's okay for things to change during development. Things that not only apply to software, but everything.</p>
+<p><em>Getting Real</em> is a book about more than just software development. It is a book that is accessible, easy to read, and simple to understand. </p>
+<p>This book illustrates shedding excess and working with small steps rather than large, seemingly unattainable goals. It touches on creativity, and how it seems to flourish the more restrictions there are in place.  It emphasizes that it's okay for things to change during development, and that this change should be welcome. These are things that not only apply to software, but everything.</p>
     <footer>
     </footer>
   </article>
@@ -115,6 +201,17 @@
   </article>
 
   <article>
+	  <h2><a href="/myfirstweek.html">My First Week</a></h2>
+      <h4>February 03, 2013</h4>
+    <p>It was really a stroke of luck for me to find out about this opportunity, and I'm so thankful I did. I can already safely say that I have never liked a job more, or worked with people who are so smart, who I can relate to as much as I am. People who I can talk to about anything I care about, and they just <em>get it</em>.</p>
+<p>My first week here has just been getting handed books, given projects, and learning about the team and the way the company works. It's true--you do learn a lot, and quickly. This week, I used Github and got super frustrated. My first project was diving head-first into things I am not comfortable with in the least. By the end of the week, I was told I'd be working on client work. Yeah, fast. I love it!</p>
+<p>My task for the next two weeks was to <strong>create a blog</strong> to post my book reviews and my projects for reference and for others to see. I am told this blog will morph and change much during my apprenticeship, so I am starting with something very basic--just a one-column design with some watercolor elements that I will vectorize in Illustrator to make them transparent .pngs. I wanted something to show off my style but something that I'd be able to evolve over time.</p>
+<p>The next book on my reading list is <strong>The Design of Everyday Things</strong> by Donald Norman, so I will be posting a little entry about that soon. 
+    <footer>
+    </footer>
+  </article>
+
+  <article>
 	  <h2><a href="/thinkingwithtype.html">Thinking With Type</a></h2>
       <h4>February 02, 2013</h4>
     <p>Typography holds a special place in my heart; its importance is undeniable, yet, it is often overlooked. Pinterest and Tumblr have popularized hand-lettering, helping people realize typography's role in computer- and print-based media.</p>
@@ -128,17 +225,6 @@
 <blockquote>"A well-designed comma carries the essence of the typeface down to its delicious details. Helvetica's comma is a chunky square mounted to a jaunty curve, while Bodoni's is a voluptuous, thin-stemmed orb."  -  Ellen Lupton, <em>Thinking With Type</em></blockquote>
 
 <p>The book also covers numerous other type-related topics from kerning to utilizing the golden mean in creating a modular scale. <strong>Thinking With Type</strong> is an incredibly useful resource, and even has <a href="www.thinkingwithtype.com">a website</a> briefly covering all of the topics.</p>
-    <footer>
-    </footer>
-  </article>
-
-  <article>
-	  <h2><a href="/myfirstweek.html">My First Week</a></h2>
-      <h4>February 01, 2013</h4>
-    <p>It was really a stroke of luck for me to find out about this opportunity, and I'm so thankful I did. I can already safely say that I have never liked a job more, or worked with people who are so smart, who I can relate to as much as I am. People who I can talk to about anything I care about, and they just <em>get it</em>.</p>
-<p>My first week here has just been getting handed books, given projects, and learning about the team and the way the company works. It's true--you do learn a lot, and quickly. This week, I used Github and got super frustrated. My first project was diving head-first into things I am not comfortable with in the least. By the end of the week, I was told I'd be working on client work. Yeah, fast. I love it!</p>
-<p>My task for the next two weeks was to <strong>create a blog</strong> to post my book reviews and my projects for reference and for others to see. I am told this blog will morph and change much during my apprenticeship, so I am starting with something very basic--just a one-column design with some watercolor elements that I will vectorize in Illustrator to make them transparent .pngs. I wanted something to show off my style but something that I'd be able to evolve over time.</p>
-<p>The next book on my reading list is <strong>The Design of Everyday Things</strong> by Donald Norman, so I will be posting a little entry about that soon. 
     <footer>
     </footer>
   </article>
