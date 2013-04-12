@@ -478,6 +478,7 @@ footer h1 {
 .compound {
   padding: 1em;
   margin: 0;
+  width: 100%;
 }
 
 .description {
@@ -489,10 +490,6 @@ footer h1 {
 .description h2 {
   font-size: 120%;
   line-height: 1.2em;
-}
-
-.description h1 {
-  font-size: 180%;
 }
 
 .lilcircle {
@@ -512,6 +509,9 @@ footer h1 {
 
 .snowman {
   float: none;
+  position: relative;
+  top: 29em;
+  margin-bottom: 0;
 }
 
 /*---TRANSPARENCY--*/
@@ -564,8 +564,10 @@ footer h1 {
 }
 
 .example {
-  width: 60%;
+  width: 100%;
   margin: auto;
+  position: relative;
+  left: -50px;
 }
 
 .circle {
