@@ -29,7 +29,7 @@ h2 {
 footer {
   background-color: #9cdebc;
   color: #333;
-  padding-top: 4em;
+  padding: 2em;
   text-align: center;
 }
 
@@ -457,6 +457,8 @@ a:visited {
 
 footer {
   font-size: 100%;
+  width: 100%;
+  height: auto;
 }
 
 footer h1 {
@@ -470,7 +472,12 @@ footer h1 {
 /*---TANGENT-----*/
 .tangent {
   margin: auto;
-  padding: 3em 0;
+  padding: 3em;
+  width: 100%;
+}
+
+.tangent h1 {
+    font-size: 200%;
 }
 
 /*--OVERLAPPING--*/
@@ -479,6 +486,11 @@ footer h1 {
   padding: 1em;
   margin: 0;
   width: 100%;
+}
+
+.compound h1 {
+  font-size: 250%;
+  text-align: center;
 }
 
 .description {
@@ -510,7 +522,7 @@ footer h1 {
 .snowman {
   float: none;
   position: relative;
-  top: 29em;
+  top: 33em;
   margin-bottom: 0;
 }
 
@@ -520,6 +532,7 @@ footer h1 {
   text-align: center;
   padding-bottom: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .transparency p {
@@ -551,6 +564,10 @@ footer h1 {
 }
 
 /*--WEIGHT-------*/
+
+.weight {
+  width: 100%;
+}
 
 .weight .blurb {
   width: 100%;
