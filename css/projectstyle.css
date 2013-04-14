@@ -9,20 +9,14 @@ body {
 
 header {
   background-color: #7babc7;
-  height: 32em;
   padding: 4em 0 0 0;
   margin: 0 0 5em 0;
   text-align: center;
 }
 
-header h4 {
-  line-height: 1em;
-  text-align: center;
-  margin: 2.25em 0 0 0;
-}
-
 .icons {
-  margin-top: 4em;
+  margin: .5em 0 .25em 0;
+  font-size: 4em;
 }
 
 header a:link {
@@ -36,7 +30,6 @@ header a:visited {
 header a:hover {
   color: #7ecefd;
 }
-
 
 .btn {
   background-color:#ff7f66;
@@ -66,15 +59,16 @@ header a:hover {
 
 .btn:active {
   position:relative;
-  top: 1px;
+  top: 2px;
 }
 
 
 article {
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding-bottom: 3em;
-  min-width: 420px;
+  min-width: 30em;
+  max-width: 60em;
 }
 
 h1, h2, h3, h4 {
@@ -87,12 +81,17 @@ h1 {
   color: #fff6e5;
   font-size: 5.063em;
   text-align: center;
-  margin: 0 0 0 0;
+  margin: auto;
 }
 
-/*blog post title*/
+/*post subheadings*/
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
+  color: #2f4f4f;
+}
+
+/*blog post titles*/
+.titles {
   color: #fff6e5;
 }
 
@@ -101,12 +100,12 @@ h3 {
   color: #fff6e5;
   font-size: 1.5em;
 }
+
 /*date*/
 h4 {
   color: #555;
   font-size: 1.5em;
-  margin: 0em;
-  padding: 0em;
+  margin-top: 0em;
 }
 
 p {
@@ -119,26 +118,29 @@ p {
 }
 
 em {
-  color: #222b33;
+  color: #2f4f4f;
 }
 
 pre {
   font-family: 'Arvo' serif; font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
   background: #ffcccc;
+  display: inline;
+}
+
+code {
   display: inline;
 }
 
 blockquote {
   font-family: 'PT Sans', sans-serif;
-  font-style: oblique;
   color: #555;
-  border-left: 1em solid #7babc7;
+  border-left: 1em solid #ff7f66;
   text-align: justify;
-  font-size: 1.5em;
-  margin: 1.5em;
-  padding-left: 20px;
-  line-height: 1.35em;
+  font-size: 1.25em;
+  margin: 1.5em .25em;
+  padding-left: 2em;
+  line-height: 1.2em;
 }
 
 img {
@@ -153,10 +155,6 @@ a:link {
 a:hover {
   color: #6f869e;
 } 
-
-.icon {
-  font-size: 4em;
-}
 
 a:visited{
   color: #3e454c;

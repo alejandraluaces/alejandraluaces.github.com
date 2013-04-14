@@ -469,6 +469,10 @@ footer h1 {
   display: none;
 }
 
+.main-container {
+  width: 100%;
+}
+
 /*---TANGENT-----*/
 .tangent {
   margin: auto;
