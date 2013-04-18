@@ -114,7 +114,7 @@ p {
   font-weight: 400;
   text-align: justify;
   color: #555;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
 em {
@@ -161,3 +161,11 @@ a:visited{
 }
 
 /*Responsive----------------*/
+
+@media screen and (max-width: 480px) {
+img {
+  max-width: 480px;
+  height: auto;
+}
+
+  }
