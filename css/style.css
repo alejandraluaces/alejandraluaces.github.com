@@ -66,18 +66,17 @@ article {
   width: 70%;
   margin: auto;
   padding-bottom: 3em;
-  min-width: 30em;
   max-width: 60em;
-}
-
-h1, h2, h3, h4 {
-  font-family: 'Arvo' serif; 
-  font-weight: 400;
 }
 
 li {
   list-style-type: circle;
   color: #ff7f66;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Arvo' serif; 
+  font-weight: 400;
 }
 
 /*blog header*/
@@ -170,11 +169,21 @@ a:visited{
 
 @media screen and (max-width: 480px) {
 img {
-  max-width: 400px;
+  max-width: 90%;
   height: auto;
   float: none;
   margin: auto;
   display: block;
+}
+
+article {
+  width: 90%;
+  max-width: 480px;
+  padding: 5%;
+}
+
+header {
+  font-size: 70%;
 }
 
   }
