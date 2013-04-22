@@ -7,11 +7,6 @@ body {
   padding-top: 0px;
 }
 
-li {
-  list-style-type: circle;
-  color: #ff7f66;
-}
-
 header {
   background-color: #ff7f66;
   padding: 4em 0 0 0;
@@ -71,8 +66,12 @@ article {
   width: 70%;
   margin: auto;
   padding-bottom: 3em;
-  min-width: 30em;
   max-width: 60em;
+}
+
+li {
+  list-style-type: circle;
+  color: #ff7f66;
 }
 
 h1, h2, h3, h4 {
@@ -90,12 +89,13 @@ h1 {
 
 /*post subheadings*/
 h2 {
-  font-size: 2em;
+  font-size: 1.75em;
   color: #2f4f4f;
 }
 
 /*blog post titles*/
 .titles {
+  font-size: 2em;
   color: #fff6e5;
 }
 
@@ -109,7 +109,7 @@ h3 {
 h4 {
   color: #555;
   font-size: 1.5em;
-  margin-top: 0em;
+  margin-top: .5em;
 }
 
 p {
@@ -118,7 +118,8 @@ p {
   font-weight: 400;
   text-align: justify;
   color: #555;
-  line-height: 1.25em;
+  line-height: 1.5em;
+  margin: .25em 0 1em 0;
 }
 
 em {
@@ -167,4 +168,25 @@ a:visited{
 }
 
 /*Responsive----------------*/
+
+@media screen and (max-width: 480px) {
+img {
+  max-width: 90%;
+  height: auto;
+  float: none;
+  margin: auto;
+  display: block;
+}
+
+article {
+  width: 90%;
+  max-width: 480px;
+  padding: 5%;
+}
+
+header {
+  font-size: 70%;
+}
+
+  }
 
