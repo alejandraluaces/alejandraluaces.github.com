@@ -167,6 +167,15 @@ a:visited{
   color: #3e454c;
 }
 
+.float-left {
+  float: left;
+  margin-right: 2em;
+}
+
+.float-right {
+  float: right;
+  margin-left: 2em;
+}
 /*Responsive----------------*/
 
 @media screen and (max-width: 480px) {
