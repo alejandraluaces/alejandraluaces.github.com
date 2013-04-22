@@ -19,7 +19,7 @@
 
       <header>
         <a href="/"><h1>alejandra luaces</h1></a>
-        <h2>blog page</h2>
+        <h2 class="titles">blog page</h2>
         <section class="icons">
           <a href="http://github.com/alejandraluaces"><span class="icon-github icon"></span></a>
           <a href="http://twitter.com/alejandraluaces"><span class="icon-twitter icon"></span></a>
@@ -31,7 +31,7 @@
 
         <section>
           <article>
-            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <h2 class="titles"><a href="{{ page.url }}">{{ page.title }}</a></h2>
             <h4>{{ page.date | date: "%B %d, %Y" }}</h4>
             {{ content }}
           </article>
