@@ -159,6 +159,9 @@ a:visited {
 
 @media screen and (max-width: 480px) {
 
+.main-container {
+  max-width: 100%;
+}
 .clock-controls {
   display: block;
   max-width: 400px;
