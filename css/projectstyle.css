@@ -186,12 +186,23 @@ article {
   width: 90%;
   max-width: 480px;
   padding: 5%;
+  font-size: .75em;
+  line-height: 1.2em;
+  text-align: left;
 }
 
 header {
   font-size: 50%;
-  height: 25em;
+  padding-top: 2em;
+  margin-bottom: 1em;
+}
+
+article h2 {
+  margin-bottom: .6em;
+}
+
+article h4 {
+  margin-bottom: 1.5em;
 }
 
   }
-
