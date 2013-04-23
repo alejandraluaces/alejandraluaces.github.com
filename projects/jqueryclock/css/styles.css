@@ -159,7 +159,9 @@ a:visited {
 @media screen and (max-width: 480px) {
 
   .clock {
-    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    display: block;
   }
 
   img {
@@ -167,31 +169,43 @@ a:visited {
   }
 
   .main-container {
-    max-width: 400px;
+    width: 90%;
     margin: auto;
   }
 
   .clock-controls {
     display: block;
-    max-width: 380px;
+    width: 100%;
     margin: 1em auto;
     padding-top: 2em;
   }
 
+  .left {
+    width: 6em;
+    padding: 0;
+    margin: auto;
+  }
+
+  .right {
+    width: 6em;
+    padding: 0;
+    margin: auto;
+  }
+
   #second {
-    top: 1.7em;
-    right: 12.2em;
+    top: 1.4em;
+    right: 8.87em;
     z-index: 500;
-    height: 10em;
+    height: 7em;
     -webkit-transform-origin:50% 84%;
     moz-transform-origin:50% 84%;
     transform-origin:50% 84%;
   }
 
   #minute {
-    top: 4em;
-    right: 12em;
-    height: 7em;
+    top: 3.5em;
+    right: 8.87em;
+    height: 4.5em;
     z-index: 300;
     -webkit-transform-origin:50% 90%;
     moz-transform-origin:50% 90%;
@@ -199,9 +213,9 @@ a:visited {
   }
 
   #hour {
-    top: 6em;
-    right: 11.85em;
-    height: 5em;
+    top: 5em;
+    right: 8.76em;
+    height: 3em;
     -webkit-transform-origin:50% 90%;
     moz-transform-origin:50% 90%;
     transform-origin:50% 90%;
