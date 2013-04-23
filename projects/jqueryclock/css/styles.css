@@ -33,7 +33,6 @@ a:visited {
   position: relative;
   float: left;
   display: inline-block;
-  margin: 0 0 0 2em;
 }
 
 .clock-controls {
@@ -159,45 +158,52 @@ a:visited {
 
 @media screen and (max-width: 480px) {
 
-.main-container {
-  max-width: 100%;
-}
-.clock-controls {
-  display: block;
-  max-width: 400px;
-  margin: 2em auto;
-  padding: 10px;
-}
+  .clock {
+    max-width: 400px;
+  }
 
-img {
-  max-width: 90%;
-}
+  img {
+    max-width: 80%;
+  }
 
-#second {
-  top: 2em;
-  right: 12.2em;
-  z-index: 500;
-  height: 11em;
-  -webkit-transform-origin:50% 83%;
-  moz-transform-origin:50% 83%;
-  transform-origin:50% 83%;
-}
+  .main-container {
+    max-width: 400px;
+    margin: auto;
+  }
 
-#minute {
-  top: 2.8em;
-  right: 11.95em;
-  height: 9em;
-  -webkit-transform-origin:50% 95%;
-  moz-transform-origin:50% 95%;
-  transform-origin:50% 95%;
-}
+  .clock-controls {
+    display: block;
+    max-width: 380px;
+    margin: 1em auto;
+    padding-top: 2em;
+  }
 
-#hour {
-  top: 6.8em;
-  right: 11.85em;
-  height: 5em;
-  -webkit-transform-origin:50% 88%;
-  moz-transform-origin:50% 88%;
-  transform-origin:50% 88%;
-}
+  #second {
+    top: 1.7em;
+    right: 12.2em;
+    z-index: 500;
+    height: 10em;
+    -webkit-transform-origin:50% 84%;
+    moz-transform-origin:50% 84%;
+    transform-origin:50% 84%;
+  }
+
+  #minute {
+    top: 4em;
+    right: 12em;
+    height: 7em;
+    z-index: 300;
+    -webkit-transform-origin:50% 90%;
+    moz-transform-origin:50% 90%;
+    transform-origin:50% 90%;
+  }
+
+  #hour {
+    top: 6em;
+    right: 11.85em;
+    height: 5em;
+    -webkit-transform-origin:50% 90%;
+    moz-transform-origin:50% 90%;
+    transform-origin:50% 90%;
+  }
 }
