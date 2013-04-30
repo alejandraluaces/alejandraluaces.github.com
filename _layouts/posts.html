@@ -19,19 +19,19 @@
 
       <header>
         <a href="/"><h1>alejandra luaces</h1></a>
-        <h2 class="titles">blog page</h2>
         <section class="icons">
           <a href="http://github.com/alejandraluaces"><span class="icon-github icon"></span></a>
           <a href="http://twitter.com/alejandraluaces"><span class="icon-twitter icon"></span></a>
           <a href="http://pinterest.com/aluaces"><span class="icon-pinterest icon"></span></a>
           <a href="http://dribbble.com/alejandraluaces"><span class="icon-dribbble icon"></span></a>
         </section>
-        <div class="btn"><a href="../projects/index.html"><h3>Projects</h3></a></div>
+        <h2>blog page</h2><h2><a href="../projects/index.html">project page</a></h2>
+        <div id="triangle"></div>
       </header>
 
-        <section>
+        <section class="content">
           <article>
-            <h2 class="titles"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
             <h4>{{ page.date | date: "%B %d, %Y" }}</h4>
             {{ content }}
           </article>
