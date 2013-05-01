@@ -7,7 +7,7 @@ body {
 
 #top-stripe {
   height: 1em;
-  background-color: #d3643b;
+  background-color: #94C7B6;
   margin: 0;
   width: 100%;
 }
@@ -37,8 +37,9 @@ header {
 }
 
 .block {
-	margin-top: 24em;
+	margin: 24em auto;
 	text-align: center;
+	padding-top: 5em;
 }
 
 p {
@@ -50,6 +51,10 @@ p {
 
 }
 
+.heart {
+	margin: 1.5em 0;
+}
+
 #rules {
 
 }
@@ -58,8 +63,52 @@ p {
 
 }
 
+.col p:nth-of-type(even) {
+    font-family: 'ColaborateBoldRegular';
+}
+
+.col {
+	width: 30%;
+	padding: 1em auto;
+	margin-bottom: 2.5em;
+	display: inline-block;
+}
+
+.border {
+	border-right: 1px dotted #888;
+}
+
 #contact {
-	padding-bottom: 20em;
+
+}
+
+.contactinfo {
+	margin-top: -5em;
+}
+
+#contact a {
+	display: block;
+	font-family: 'ColaborateThinRegular';
+	font-size: 1.5em;
+	line-height: 2.063em;
+}
+
+#contact p {
+	display: inline-block;
+}
+
+#contact h1 {
+	margin-bottom: 0;
+}
+
+.emails {
+	display: inline-block;
+	position: relative;
+	top: 9.2em;
+	left: 1em;
+	margin-top: 0;
+	border-left: 1px dotted #888;
+	padding-left: 2em;
 }
 
 /*----------------HEADERS
@@ -72,17 +121,12 @@ h1 {
 	line-height: .5em;
 }
 
-h2 {
-	font-family: 'ColaborateThinRegular';
-	font-size: 2.25em;
-
-}
-
 .icon {
 	font-size: 3.375em;
 	text-align: center;
 	width: 3em;
 	margin: auto;
+	display: block;
 }
 
 /*----------------LINKS
@@ -151,12 +195,41 @@ a:visited{
   	width: 100%;
   }
 
+  .subheader h1 {
+  	line-height: .5em;
+  }
+
   .block {
   	margin-top: 3em;
+  	margin-bottom: 0;
   }
 
-  #contact {
-  	padding-bottom: 5em;
+  .col {
+  	display: block;
+  	width: 100%;
   }
 
+  .border {
+  	border-right: 0px;
+  }
+
+  .contactinfo {
+	margin-top: 1em;
+  }
+
+  #contact a {
+	display: block;
+	line-height: 1.5em;
+  }
+
+  #contact p {
+	display: block;
+  }
+
+  .emails {
+	display: block;
+	position: static;
+	border-left: 0px;
+	padding-left: 0;
+  }
 }
