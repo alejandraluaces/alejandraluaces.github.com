@@ -21,9 +21,7 @@ body {
 header {
 	margin: 2.5em auto;
 	width: 30%;
-	border-bottom: 1px dotted #888;
 	text-align: center;
-	padding-bottom: 3em;
 }
 
 .subheader {
