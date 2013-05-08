@@ -166,7 +166,6 @@ h3 {
 }
 
 .center-image {
-  max-width: 20em;
   margin-bottom: 2.25em;
 }
 
@@ -368,6 +367,10 @@ h2 {
   color: #5a5f4a;
   padding: 5em 0;
   font-size: 70%;
+}
+
+.center-image {
+    max-width: 30em;
 }
 
 #web-font {
