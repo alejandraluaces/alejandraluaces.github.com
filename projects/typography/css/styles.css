@@ -184,13 +184,13 @@ li {
 #web-font {
   background-color: #d4ee5e;
   color: #555f26;
-  padding: 20em 0;
+  padding: 10em 0;
 }
 
 #web-font p {
   margin: 1em auto;
   max-width: 26em;
-  padding: 5em 0;
+  padding: 1em 0;
 }
 
 .clouds {
@@ -233,7 +233,7 @@ a:link {
 }
 
 a:hover {
-  color: #e1edb9;
+  color: #333;
 } 
 
 a:visited{
