@@ -63,7 +63,7 @@ h2 {
   float: right;
   position: relative;
   top: 1em;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /*post titles*/
