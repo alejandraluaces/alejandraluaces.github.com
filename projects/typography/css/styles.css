@@ -50,16 +50,27 @@ header p {
   color: #f0f2eb;
 }
 
-.btn {
+header a {
   background: none;
   border: 2px #fff solid;
   border-radius: 5px;
   padding: 1.2em 1em 1em 1em;
   margin: 0 2em;
+  width: 20%;
   display: inline;
 }
 
-.btn:hover {
+footer a {
+  background: none;
+  border: 2px #fff solid;
+  border-radius: 5px;
+  padding: 1.2em 1em 1em 1em;
+  margin: 0 2em;
+  width: 20%;
+  display: inline;
+}
+
+header a:hover, footer a:hover {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
 }
@@ -106,17 +117,12 @@ h2 {
   color: #e0e0e0;
 }
 
-#kerning p {
-  font-size: 1.5em;
-  max-width: 80%;
-}
-
 /*F O N T T Y P E S*/
 
 #font-types {
   background-color: #f4fad2;
   color: #626454;
-  padding: 10em;
+  padding: 15em;
 }
 
 h3 {
@@ -130,21 +136,19 @@ h3 {
 
 #font-types p {
   margin-top: 0;
-  width: 70%;
+  width: 90%;
 }
 
 .serif {
   font-family: 'BrawlerRegular', serif;
   font-size: 2.25em;
   padding: .5em;
-  left: -1em;
 }
 
 .sans-serif {
   font-family: 'OpenSansLight', sans-serif;
   font-size: 2.25em;
   padding: .5em;
-  left: -1em;
 }
 
 .script {
@@ -153,7 +157,6 @@ h3 {
   line-height: .8em;
   padding: .25em;
   margin: .5em 0 .1em 0;
-  left: -.5em;
 }
 
 /*A N A T O M Y*/
@@ -177,6 +180,7 @@ ol {
 
 li {
   margin-bottom: .5em;
+  max-width: 40em;
 }
 
 /*W E B F O N T S*/

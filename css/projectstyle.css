@@ -183,7 +183,8 @@ blockquote {
 
 img {
   border: 1px solid #444;
-  margin: 1em;
+  float: right;
+  margin: 0 3em;
 }
 
 .float-left {
