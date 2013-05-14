@@ -15,10 +15,15 @@ header {
   text-align: left;
   position: fixed;
   width: 100%;
+  opacity: 0.4;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   border-bottom: 1px #587289 dotted;
   z-index:999;
+}
+
+header:hover {
+  opacity: 1;
 }
 
 .icons {
@@ -27,18 +32,10 @@ header {
   display: inline;
 }
 
-#triangle {
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 50px solid #8996A7;
-  position: absolute;
-  right: 19%;
-}
-
 /*----------------HEADERS
 ------------------------------------------------*/
 h1, h2, h3, h4 {
-  font-family: 'Arvo' serif; 
+  font-family: 'OpenSansLight' serif; 
   font-weight: 400;
 }
 
@@ -48,7 +45,6 @@ h1 {
   line-height: 1.5em;
   color: #fff6e5;
   font-size: 2.25em;
-  font-weight: 400;
   margin: 0;
   display: inline;
 }
@@ -58,20 +54,24 @@ h2 {
   text-align: right;
   font-size: 1em;
   padding-right: 3em;
+  padding-top: 1em;
   color: #fff6e5;
-  width: 9em; 
+  margin: 0 2em;
   display: inline-block;
   float: right;
-  position: relative;
-  top: 1em;
-  overflow: auto;
+}
+
+.link-border:hover {
+  border-bottom: 2px solid #C4C8C9;
+  color: #C4C8C9;
+  padding-bottom: .75em;
 }
 
 /*post titles*/
 h3 { 
   font-size: 2.25em;
-  line-height: 1em;
   color: #fff6e5;
+  font-family: 'OpenSansBold';
 }
 
 /*date*/
@@ -86,24 +86,23 @@ h5 {
   font-size: 1.5em;
   color: #587289;
   text-align: left;
-  font-family: 'Arvo', serif;
-  font-weight: 400;
-  margin-bottom: .2em;
+  font-family: 'OpenSansBold', serif;
+  margin-bottom: .5em;
 }
 
 /*----------------LINKS
 ------------------------------------------------*/
 
 header a:link {
-  color: #587289;
+  color: #3e454c;
 }
 
 header a:visited {
-  color: #587289;
+  color: #3e454c;
 }
 
 header a:hover {
-  color: #fff;
+  color: #C4C8C9;
 }
 
 a:link {
@@ -140,7 +139,7 @@ li {
 
 p {
   font-size: 1.5em;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'OpenSansLight', sans-serif;
   font-weight: 400;
   text-align: justify;
   color: #555;
@@ -150,19 +149,23 @@ p {
 
 em {
   color: #2f4f4f;
+  font-family: 'OpenSansLightItalic';
+}
+
+strong {
+  font-family: 'OpenSansBold';
 }
 
 pre {
-  font-family: 'Arvo' serif; font-weight: 400;
-  font-size: 1.25em;
-  background: #ffcccc;
+  font-family: 'OpenSansLight', sans-serif;
   padding: 1em;
+  font-size: 1em;
+  background: #C4C8C9;
 }
 
 pre p {
-  font-size: 1.25em;
-  line-height: 1.25em; 
-  margin: 0; 
+  margin-bottom: 1em;
+  font-size: 1em;
 }
 
 code {
@@ -172,7 +175,7 @@ code {
 }
 
 blockquote {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'OpenSansLight', sans-serif;
   color: #333;
   border-left: 1em solid #587289;
   font-size: 1.5em;
@@ -183,30 +186,57 @@ blockquote {
 
 img {
   border: 1px solid #444;
+  max-width: 350px;
+  height: auto;
   float: right;
   margin: 0 3em;
 }
 
-.float-left {
-  float: left;
-  margin-right: 2em;
+/*//////////F O N T S////////////////////////////*/
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../font/OpenSans-Light-webfont.eot');
+    src: url('../font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.float-right {
-  float: right;
-  margin-left: 2em;
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('../font/OpenSans-LightItalic-webfont.eot');
+    src: url('../font/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../font/OpenSans-Bold-webfont.eot');
+    src: url('../font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*Responsive----------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 
   .content {
-    padding-top: 10em;
+    padding-top: 8em;
   }
     
   .icons {
-    font-size: 3.375em;
+    font-size: 2.25em;
     display: block;
     padding: 0;
     margin: 0;
@@ -214,16 +244,16 @@ img {
 
   header {
     text-align: center;
-    padding-top: 2em;
-    margin-bottom: 1em;
+    padding-top: 1em;
     font-size: 90%;
+    opacity: 1.0;
   }
 
   h2 {
     display: inline-block;
     position: none;
     position: static;
-    padding: 1em 0;
+    padding: .5em 0;
   }
 
   h4 {
@@ -231,24 +261,18 @@ img {
     line-height: 1.5em;
   }
 
-  #triangle{
-    display: none;
-  }
-
   img {
-    max-width: 90%;
+    width: 100%;
     height: auto;
     float: none;
-    margin: auto;
-    display: block;
+    margin: 1em auto;
   }
 
   article {
-    width: 90%;
-    max-width: 480px;
+    width: 80%;
     padding: 5%;
-    font-size: 80%;
-    line-height: 1.2em;
+    font-size: 70%;
     text-align: left;
   }
 }
+
