@@ -60,7 +60,7 @@ header a {
   display: inline;
 }
 
-footer a {
+.footer-btn {
   background: none;
   border: 2px #fff solid;
   border-radius: 5px;
