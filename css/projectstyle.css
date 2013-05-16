@@ -62,15 +62,18 @@ h1 {
   display: inline;
 }
 
-/*subheader*/
+/*navigation links*/
 h2 {
-  text-align: right;
   font-size: 1em;
-  padding-top: .75em;
-  color: #fff6e5;
+  color: #e4baad;
   margin: 0 1em;
   display: inline-block;
+}
+
+.nav-links {
   float: right;
+  padding-top: .35em;
+  display: inline-block;
 }
 
 /*post titles*/

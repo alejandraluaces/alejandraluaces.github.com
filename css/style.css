@@ -11,14 +11,13 @@ body {
 
 header {
   background-color: #FFB0A8;
-  padding: .5em 2em;
-  text-align: left;
-  position: fixed;
-  width: 100%;
-  opacity: 0.4;
+  border-bottom: 1px #c67054 dotted;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
-  border-bottom: 1px #c67054 dotted;
+  opacity: 0.4;
+  padding: .5em 1em;
+  position: fixed;
+  width: 100%;
   z-index:999;
 }
 
@@ -62,15 +61,18 @@ h1 {
   display: inline;
 }
 
-/*subheader*/
+/*navigation links*/
 h2 {
-  text-align: right;
   font-size: 1em;
-  padding-top: .75em;
   color: #e4baad;
-  display: inline-block;
-  float: right;
   margin: 0 1em;
+  display: inline-block;
+}
+
+.nav-links {
+  float: right;
+  padding-top: .35em;
+  display: inline-block;
 }
 
 /*post titles*/
