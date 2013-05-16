@@ -1,7 +1,7 @@
 /*----------------MAIN/HEADER
 ------------------------------------------------*/
 body {
-  background-color: #fff6e5;
+  background-color: #FFF1F0;
 }
 
 #wrapper {
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #ff7f66;
+  background-color: #FFB0A8;
   padding: .5em 2em;
   text-align: left;
   position: fixed;
@@ -18,16 +18,30 @@ header {
   opacity: 0.4;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
-  border-bottom: 1px #e34836 dotted;
+  border-bottom: 1px #c67054 dotted;
   z-index:999;
 }
 
 header:hover {
   opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.active-page {
+  color: #444;
+  background-color: rgb(183, 183, 183);
+  background-color: rgba(183, 183, 183, .6);
+  border-radius: 9px;
+  box-shadow: inset 2px 2px 4px #4a5329;
+  padding: .5em;
 }
 
 .icons {
-  font-size: 2.25em;
+  font-size: 2em;
   margin-left: 1em;
   display: inline;
 }
@@ -36,15 +50,14 @@ header:hover {
 ------------------------------------------------*/
 h1, h2, h3, h4 {
   font-family: 'OpenSansLight' serif; 
-  font-weight: 400;
 }
 
 /*blog header*/
 h1 {
   font-family: 'Pacifico', cursive;
   line-height: 1.5em;
-  color: #fff6e5;
-  font-size: 2.25em;
+  color: #FFF1F0;
+  font-size: 2em;
   margin: 0;
   display: inline;
 }
@@ -53,30 +66,23 @@ h1 {
 h2 {
   text-align: right;
   font-size: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  color: #fff6e5;
-  margin: 0 2em;
+  padding-top: .75em;
+  color: #e4baad;
   display: inline-block;
   float: right;
-}
-
-.link-border:hover {
-  border-bottom: 2px solid #e34836;
-  color: #e34836;
-  padding-bottom: .75em;
+  margin: 0 1em;
 }
 
 /*post titles*/
 h3 { 
   font-size: 2.25em;
-  color: #fff6e5;
+  color: #FFB0A8;
   font-family: 'OpenSansBold';
 }
 
 /*date*/
 h4 {
-  color: #587289;
+  color: #1693A5;
   font-size: 1.25em;
   margin-top: .5em;
 }
@@ -84,9 +90,9 @@ h4 {
 /*subheadings*/
 h5 {
   font-size: 1.5em;
-  color: #587289;
+  color: #1693A5;
   text-align: left;
-  font-family: 'OpenSansBold', serif;
+  font-family: 'OpenSansLight', serif;
   margin-bottom: .5em;
 }
 
@@ -94,28 +100,28 @@ h5 {
 ------------------------------------------------*/
 
 header a:link {
-  color: #e34836;
+  color: #FFD7D4;
 }
 
 header a:visited {
-  color: #e34836;
+  color: #FFD7D4;
 }
 
 header a:hover {
-  color: #fff6e5;
+  color: #FFF1F0;
 }
 
 a:link {
-  color: #ff7f66;
+  color: #ff9186;
   text-decoration: none;
 }
 
 a:hover {
-  color: #587289;
+  color: #FFD7D4;
 } 
 
 a:visited{
-  color: #ff7f66;
+  color: #ff9186;
 }
 
 /*----------------ARTICLE STYLES
@@ -245,9 +251,9 @@ img {
 
   h2 {
     display: inline-block;
-    position: none;
+    float: none;
     position: static;
-    padding: .5em 0;
+    padding: 0;
   }
 
   h4 {
