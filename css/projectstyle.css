@@ -1,98 +1,82 @@
 /*----------------MAIN/HEADER
 ------------------------------------------------*/
 body {
-  background-color: #FCFBE3;
+  background-color: #78deed;
 }
 
 #wrapper {
-  width: 100%;
-  padding-top: 0px;
+  width: 98%;
+  height: 100%;
+  padding-bottom: 2em;
+  margin: auto;
+  background-color: #f0fbfd;
+  padding-top: 0;
 }
 
 header {
-  background-color: #1693A5;
-  padding: .5em 2em;
-  text-align: left;
-  position: fixed;
-  width: 100%;
-  opacity: 0.4;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
-  border-bottom: 1px #142441 dotted;
-  z-index:999;
-}
-
-header:hover {
-  opacity: 1;  
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .active-page {
   color: #444;
   background-color: rgb(183, 183, 183);
   background-color: rgba(183, 183, 183, .6);
-  border-radius: 9px;
   box-shadow: inset 2px 2px 4px #4a5329;
-  padding: .5em;
 }
 
 .icons {
   font-size: 2em;
-  margin-left: 1em;
-  display: inline;
+  margin: 1em auto;
+  display: block;
 }
 
-/*----------------HEADERS
-------------------------------------------------*/
 h1, h2, h3, h4 {
   font-family: 'OpenSansLight' serif; 
 }
 
-/*blog header*/
+/*----------------HEADERS
+------------------------------------------------*/
+
 h1 {
+  color: #555;
   font-family: 'Pacifico', cursive;
-  line-height: 1.5em;
-  color: #FCFBE3;
-  font-size: 2em;
-  margin: 0;
-  display: inline;
+  font-size: 2.566em;
+  letter-spacing: 2px;
+  margin-top: 0;
+  padding-top: 3em;
 }
 
-/*navigation links*/
+/*project/blog buttons*/
 h2 {
-  font-size: 1em;
-  color: #e4baad;
-  margin: 0 1em;
+  font-size: 1.125em;
+  margin: 1.125em;
   display: inline-block;
-}
-
-.nav-links {
-  float: right;
-  padding-top: .35em;
-  display: inline-block;
+  padding: .5em;
+  border: solid 1px #555;
+  border-radius: 9px;
 }
 
 /*post titles*/
 h3 { 
-  font-size: 2.25em;
-  color: #142441;
+  font-size: 1.999em;
+  color: #FFB0A8;
   font-family: 'OpenSansBold';
 }
 
 /*date*/
 h4 {
-  color: #FF4D5E;
-  font-size: 1.25em;
-  margin-top: .5em;
+  color: #ff7264;
+  font-size: 1.125em;
+  margin-top: .555em;
 }
 
 /*subheadings*/
 h5 {
-  font-size: 1.5em;
+  font-size: 1.266em;
   color: #1693A5;
   text-align: left;
   font-family: 'OpenSansLight', serif;
@@ -102,42 +86,41 @@ h5 {
 /*----------------LINKS
 ------------------------------------------------*/
 
-header a:link {
-  color: #ADD8C7;
+.icons a:link {
+  color:#ff7264;
+  -webkit-transition: color 0.08s linear;
+  -moz-transition: color 0.08s linear;
+  transition: color 0.08s linear;
 }
 
-header a:visited {
-  color: #ADD8C7;
+.icons a:visited {
+  color:#ff7264;
 }
 
-header a:hover {
-  color: #FCFBE3;
+.icons a:hover {
+  color:#ffcfca;
 }
 
 a:link {
-  color: #142441;
+  color: #1693A5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ADD8C7;
+  color: #78deed;
 } 
 
-a:visited{
-  color: #142441;
+a:visited {
+  color: #1693A5;
 }
 
 /*----------------ARTICLE STYLES
 ------------------------------------------------*/
-.content {
-  padding-top: 6em;
-}
-
 article {
-  width: 60%;
+  width: 78%;
   margin: auto;
   padding-bottom: 3em;
-  max-width: 50em;
+  max-width: 60em;
 }
 
 li {
@@ -147,9 +130,8 @@ li {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.266em;
   font-family: 'OpenSansLight', sans-serif;
-  font-weight: 400;
   text-align: justify;
   color: #555;
   line-height: 1.5em;
@@ -167,9 +149,9 @@ strong {
 
 pre {
   font-family: 'OpenSansLight', sans-serif;
-  padding: 1em;
-  font-size: 1em;
+  font-size: 1.266em;
   background: #ADD8C7;
+  color: #555;
 }
 
 pre p {
@@ -195,10 +177,13 @@ blockquote {
 
 img {
   border: 1px solid #444;
-  max-width: 350px;
-  height: auto;
-  float: right;
-  margin: 0 3em;
+  width: 100%;
+}
+
+footer {
+  margin: 2em auto;
+  border-top: 1px solid #142441;
+  width: 50%;
 }
 
 /*//////////F O N T S////////////////////////////*/
@@ -240,48 +225,10 @@ img {
 
 @media screen and (max-width: 800px) {
 
-  .content {
-    padding-top: 8em;
-  }
-    
-  .icons {
-    font-size: 2.25em;
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
-  header {
-    text-align: center;
-    padding-top: 1em;
-    font-size: 90%;
-    opacity: 1.0;
-  }
-
-  h2 {
-    display: inline-block;
-    float: none;
-    position: static;
-    padding: 0;
-  }
-
-  h4 {
-    font-size: 150%;
-    line-height: 1.5em;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    float: none;
-    margin: 1em auto;
-  }
-
-  article {
-    width: 80%;
-    padding: 5%;
-    font-size: 70%;
-    text-align: left;
-  }
+article {
+  width: 90%;
+  padding: 0;
+  margin: auto;
+}
 }
 

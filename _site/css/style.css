@@ -1,134 +1,128 @@
-/*----------------MAIN/HEADER
+/*----------------MAIN
 ------------------------------------------------*/
 body {
-  background-color: #fff6e5;
+  background-color: #ffc1bd;
 }
 
 #wrapper {
-  width: 100%;
-  padding-top: 0px;
+  width: 98%;
+  height: 100%;
+  margin: auto;
+  background-color: #FFF1F0;
+  padding-top: 0;
+  padding-bottom: 2em;
 }
 
 header {
-  background-color: #ff7f66;
-  padding: .5em 2em;
-  text-align: left;
-  position: fixed;
-  width: 100%;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
-  border-bottom: 1px #e34836 dotted;
-  z-index:999;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.active-page {
+  color: #444;
+  background-color: rgb(183, 183, 183);
+  background-color: rgba(183, 183, 183, .6);
+  box-shadow: inset 2px 2px 4px #4a5329;
 }
 
 .icons {
-  font-size: 2.25em;
-  margin-left: 1em;
-  display: inline;
+  font-size: 2em;
+  margin: 1em auto;
+  display: block;
 }
 
-#triangle {
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 50px solid #ff7f66;
-  position: absolute;
-  right: 5%;
+h1, h2, h3, h4 {
+  font-family: 'OpenSansLight' serif; 
 }
 
 /*----------------HEADERS
 ------------------------------------------------*/
-h1, h2, h3, h4 {
-  font-family: 'Arvo' serif; 
-  font-weight: 400;
-}
 
 /*blog header*/
 h1 {
+  color: #555;
   font-family: 'Pacifico', cursive;
-  line-height: 1.5em;
-  color: #fff6e5;
-  font-size: 2.25em;
-  margin: 0;
-  display: inline;
+  font-size: 2.566em;
+  letter-spacing: 2px;
+  margin-top: 0;
+  padding-top: 3em;
 }
 
-/*subheader*/
+/*project/blog buttons*/
 h2 {
-  text-align: right;
-  font-size: 1em;
-  padding-right: 3em;
-  color: #fff6e5;
-  width: 9em; 
+  font-size: 1.125em;
+  margin: 1.125em;
   display: inline-block;
-  float: right;
-  position: relative;
-  top: 1em;
-  overflow: hidden;
+  padding: .5em;
+  border: solid 1px #555;
+  border-radius: 9px;
 }
 
 /*post titles*/
 h3 { 
-  font-size: 2.25em;
-  line-height: 1em;
-  color: #fff6e5;
+  font-size: 1.999em;
+  color: #FFB0A8;
+  font-family: 'OpenSansBold';
 }
 
 /*date*/
 h4 {
-  color: #587289;
-  font-size: 1.25em;
-  margin-top: .5em;
+  color: #1693A5;
+  font-size: 1.125em;
+  margin-top: .555em;
 }
 
 /*subheadings*/
 h5 {
-  font-size: 1.5em;
-  color: #587289;
+  font-size: 1.266em;
+  color: #1693A5;
   text-align: left;
-  font-family: 'Arvo', serif;
-  font-weight: 400;
-  margin-bottom: .2em;
+  font-family: 'OpenSansLight', serif;
+  margin-bottom: .5em;
 }
 
 /*----------------LINKS
 ------------------------------------------------*/
 
-header a:link {
-  color: #e34836;
+.icons a:link {
+  color:#1693A5;
+  -webkit-transition: color 0.08s linear;
+  -moz-transition: color 0.08s linear;
+  transition: color 0.08s linear;
 }
 
-header a:visited {
-  color: #e34836;
+.icons a:visited {
+  color:#1693A5;
 }
 
-header a:hover {
-  color: #fff;
+.icons a:hover {
+  color:#78deed;
 }
 
 a:link {
-  color: #ff7f66;
+  color: #ff9186;
   text-decoration: none;
 }
 
 a:hover {
-  color: #587289;
+  color: #FFD7D4;
 } 
 
-a:visited{
-  color: #ff7f66;
+a:visited {
+  color: #ff9186;
 }
 
 /*----------------ARTICLE STYLES
 ------------------------------------------------*/
-.content {
-  padding-top: 6em;
-}
 
 article {
-  width: 60%;
+  width: 78%;
   margin: auto;
   padding-bottom: 3em;
-  max-width: 50em;
+  max-width: 60em;
 }
 
 li {
@@ -138,9 +132,8 @@ li {
 }
 
 p {
-  font-size: 1.5em;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
+  font-size: 1.266em;
+  font-family: 'OpenSansLight', sans-serif;
   text-align: justify;
   color: #555;
   line-height: 1.5em;
@@ -149,22 +142,28 @@ p {
 
 em {
   color: #2f4f4f;
+  font-family: 'OpenSansLightItalic';
+}
+
+strong {
+  font-family: 'OpenSansBold';
 }
 
 pre {
-  font-family: 'Arvo' serif; font-weight: 400;
-  font-size: 1.25em;
+  font-family: 'OpenSansLight', sans-serif;
+  font-size: 1.266em;
   background: #ffcccc;
+  color: #555;
 }
 
 code {
   display: inline;
-  background-color: #e8e8e8;
+  background-color: #ffcccc;
   border-radius: 5px;
 }
 
 blockquote {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'OpenSansLight', sans-serif;
   color: #333;
   border-left: 1em solid #ff7f66;
   font-size: 1.5em;
@@ -175,71 +174,78 @@ blockquote {
 
 img {
   border: 1px solid #444;
+  max-width: 350px;
+  height: auto;
   float: right;
   margin: 0 3em;
 }
 
-.float-left {
-  float: left;
-  margin-right: 2em;
+footer {
+  margin: 2em auto;
+  border-top: 1px solid #FFB0A8;
+  width: 50%;
 }
 
-.float-right {
-  float: right;
-  margin-left: 2em;
+/*//////////F O N T S////////////////////////////*/
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../font/OpenSans-Light-webfont.eot');
+    src: url('../font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('../font/OpenSans-LightItalic-webfont.eot');
+    src: url('../font/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../font/OpenSans-Bold-webfont.eot');
+    src: url('../font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*Responsive----------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 
-  .content {
-    padding-top: 10em;
-  }
-    
-  .icons {
-    font-size: 3.375em;
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
-  header {
-    text-align: center;
-    padding-top: 2em;
-    margin-bottom: 1em;
-    font-size: 90%;
-  }
-
-  h2 {
-    display: inline-block;
-    position: none;
-    position: static;
-    padding: 1em 0;
-  }
-
-  h4 {
-    font-size: 150%;
-    line-height: 1.5em;
-  }
-
-  #triangle{
-    display: none;
-  }
-
-  img {
-    max-width: 90%;
-    height: auto;
-    float: none;
-    margin: auto;
-    display: block;
-  }
-
-  article {
-    width: 90%;
-    max-width: 480px;
-    padding: 5%;
-    font-size: 80%;
-    line-height: 1.2em;
-    text-align: left;
-  }
+article {
+  width: 90%;
+  padding: 0;
+  margin: auto;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

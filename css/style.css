@@ -1,83 +1,69 @@
-/*----------------MAIN/HEADER
+/*----------------MAIN
 ------------------------------------------------*/
 body {
-  background-color: #FFF1F0;
+  background-color: #ffc1bd;
 }
 
 #wrapper {
-  width: 100%;
-  padding-top: 0px;
+  width: 98%;
+  height: 100%;
+  margin: auto;
+  background-color: #FFF1F0;
+  padding-top: 0;
+  padding-bottom: 2em;
 }
 
 header {
-  background-color: #FFB0A8;
-  border-bottom: 1px #c67054 dotted;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
-  opacity: 0.4;
-  padding: .5em 1em;
-  position: fixed;
-  width: 100%;
-  z-index:999;
-}
-
-header:hover {
-  opacity: 1;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .active-page {
   color: #444;
   background-color: rgb(183, 183, 183);
   background-color: rgba(183, 183, 183, .6);
-  border-radius: 9px;
   box-shadow: inset 2px 2px 4px #4a5329;
-  padding: .5em;
 }
 
 .icons {
   font-size: 2em;
-  margin-left: 1em;
-  display: inline;
+  margin: 1em auto;
+  display: block;
 }
 
-/*----------------HEADERS
-------------------------------------------------*/
 h1, h2, h3, h4 {
   font-family: 'OpenSansLight' serif; 
 }
 
+/*----------------HEADERS
+------------------------------------------------*/
+
 /*blog header*/
 h1 {
+  color: #555;
   font-family: 'Pacifico', cursive;
-  line-height: 1.5em;
-  color: #FFF1F0;
-  font-size: 2em;
-  margin: 0;
-  display: inline;
+  font-size: 2.566em;
+  letter-spacing: 2px;
+  margin-top: 0;
+  padding-top: 3em;
 }
 
-/*navigation links*/
+/*project/blog buttons*/
 h2 {
-  font-size: 1em;
-  color: #e4baad;
-  margin: 0 1em;
+  font-size: 1.125em;
+  margin: 1.125em;
   display: inline-block;
-}
-
-.nav-links {
-  float: right;
-  padding-top: .35em;
-  display: inline-block;
+  padding: .5em;
+  border: solid 1px #555;
+  border-radius: 9px;
 }
 
 /*post titles*/
 h3 { 
-  font-size: 2.25em;
+  font-size: 1.999em;
   color: #FFB0A8;
   font-family: 'OpenSansBold';
 }
@@ -85,13 +71,13 @@ h3 {
 /*date*/
 h4 {
   color: #1693A5;
-  font-size: 1.25em;
-  margin-top: .5em;
+  font-size: 1.125em;
+  margin-top: .555em;
 }
 
 /*subheadings*/
 h5 {
-  font-size: 1.5em;
+  font-size: 1.266em;
   color: #1693A5;
   text-align: left;
   font-family: 'OpenSansLight', serif;
@@ -101,16 +87,19 @@ h5 {
 /*----------------LINKS
 ------------------------------------------------*/
 
-header a:link {
-  color: #FFD7D4;
+.icons a:link {
+  color:#1693A5;
+  -webkit-transition: color 0.08s linear;
+  -moz-transition: color 0.08s linear;
+  transition: color 0.08s linear;
 }
 
-header a:visited {
-  color: #FFD7D4;
+.icons a:visited {
+  color:#1693A5;
 }
 
-header a:hover {
-  color: #FFF1F0;
+.icons a:hover {
+  color:#78deed;
 }
 
 a:link {
@@ -122,21 +111,18 @@ a:hover {
   color: #FFD7D4;
 } 
 
-a:visited{
+a:visited {
   color: #ff9186;
 }
 
 /*----------------ARTICLE STYLES
 ------------------------------------------------*/
-.content {
-  padding-top: 6em;
-}
 
 article {
-  width: 60%;
+  width: 78%;
   margin: auto;
   padding-bottom: 3em;
-  max-width: 50em;
+  max-width: 60em;
 }
 
 li {
@@ -146,9 +132,8 @@ li {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.266em;
   font-family: 'OpenSansLight', sans-serif;
-  font-weight: 400;
   text-align: justify;
   color: #555;
   line-height: 1.5em;
@@ -166,8 +151,9 @@ strong {
 
 pre {
   font-family: 'OpenSansLight', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.266em;
   background: #ffcccc;
+  color: #555;
 }
 
 code {
@@ -192,6 +178,12 @@ img {
   height: auto;
   float: right;
   margin: 0 3em;
+}
+
+footer {
+  margin: 2em auto;
+  border-top: 1px solid #FFB0A8;
+  width: 50%;
 }
 
 /*//////////F O N T S////////////////////////////*/
@@ -231,49 +223,29 @@ img {
 
 /*Responsive----------------*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
-  .content {
-    padding-top: 8em;
-  }
-    
-  .icons {
-    font-size: 2.25em;
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
-  header {
-    text-align: center;
-    padding-top: 1em;
-    font-size: 90%;
-    opacity: 1.0;
-  }
-
-  h2 {
-    display: inline-block;
-    float: none;
-    position: static;
-    padding: 0;
-  }
-
-  h4 {
-    font-size: 150%;
-    line-height: 1.5em;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    float: none;
-    margin: auto;
-  }
-
-  article {
-    width: 80%;
-    padding: 5%;
-    font-size: 70%;
-    text-align: left;
-  }
+article {
+  width: 90%;
+  padding: 0;
+  margin: auto;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

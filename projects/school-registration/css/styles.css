@@ -86,8 +86,9 @@ h1 {
 }
 
 .stripe {
-  background-color: #c0c078;
-  height: 2em;
+  background-image: url('../images/scalebg.png');  
+  background-repeat: repeat-x;
+  height: 3em;
 }
 
 strong {
@@ -99,6 +100,7 @@ em {
 }
 
 footer {
+  padding: 2em 20%;
   background-image: url('../images/kids.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -114,24 +116,23 @@ footer h1 {
   margin: auto;
 }
 
+h3 {
+  color: #c3c379
+}
+
 .col-one, .col-two p {
   color: #d8d8a8;
 }
 
-.col-one {
-  width: 40%;
-  padding: 2em;
+.col-one, .col-two {
   display: inline-block;
-  margin: auto;
-  font-size: 100%;
+}
+
+.col-one {
+  padding-right: 50%;
 }
 
 .col-two {
-  width: 40%;
-  padding: .5em 2em;
-  display: inline-block;
-  border-left: 1px solid #d8d8a8;
-  margin: 2em auto;
   text-align: right;
   font-size: 1.25em;
   line-height: .75em;
@@ -156,11 +157,25 @@ a:visited{
   background-color: #fff;
   height: 100%;
   padding: 3em 0;
-  width: 90%;
+  width: 95%;
   margin: auto;
   box-sizing:border-box;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
+}
+
+h2 {
+  font-size: 2.25em;
+  text-align: center;
+  color: #44431b;
+}
+
+p {
+  font-size: 1em;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3em;
 }
 
 fieldset { 
@@ -169,7 +184,7 @@ fieldset {
   margin: 2em;
   width: 30%;
   display: inline-block;
-  height: 100%;
+  vertical-align: top;
 }
 
 label {
@@ -221,9 +236,34 @@ legend {
   text-align: center;
 }
 
+.radio {
+  padding-left: 2em;
+  display: inline-block;
+  padding-bottom: 2em;
+}
+
+.state-select {
+  padding-left: 2em;
+  display: inline-block;
+  padding-bottom: 2em;
+}
+
+.zip {
+  width: 5%;
+  display: inline-block;
+}
+
+.city {
+  width: 20%;
+  display: inline-block;
+}
+
+label {
+  display: block;
+}
+
 .btn {
   border:none; 
-  color:#fff;
   font-size:1.25em; 
   margin: 2em;
   padding: .75em 1.25em;
@@ -232,7 +272,8 @@ legend {
 }
  
 input[type="submit"] { 
-  background-color:#c3c379;  
+  background-color:#c3c379; 
+  color: #44431b; 
 }
 
 input[type="submit"]:hover {
@@ -240,11 +281,12 @@ input[type="submit"]:hover {
 }
 
 .cancel {
-  background-color:#300030;  
+  background-color:#c0c0c0;  
+  color: #190c19; 
 }
 
 .cancel:hover {
-  background-color: #1f001f;
+  background-color: #3d2d3d;
   cursor: pointer;
 }
 
@@ -285,15 +327,32 @@ input[type="submit"]:hover {
 
 /*Responsive----------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
 .school-img {
   padding: 2em;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   width: 80%;
+}
+
+.stripe {
+  height: 1em;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.25em;
+  text-align: left;
+  padding-left: 1em;
+}
+
+p {
+  width: 90%;
+  margin-bottom: 0;
 }
 
 label {
@@ -327,26 +386,18 @@ fieldset {
 }
 
 footer {
-  padding: 0;
+  padding: 2em 10%;
   background-color: #1f001f;
 }
 
-footer p {
-  font-size: 70%;
-}
-
-.col-one {
-  width: 80%;
-  display: block;
+footer h1 {
+  width: auto;
 }
 
 .col-two {
-  width: 80%;
   display: block;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 1em;
-  border: none;
-} 
+  width: 85%;
+}
+
 
 }

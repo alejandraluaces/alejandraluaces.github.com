@@ -25,11 +25,19 @@
       <div class="stripe"></div>
 
       <section id="form-area">
+
+        <h2>Parent & Child Registration Information</h2>
+        <p>Please fill out the following online forms in order to begin registering your child in Hillsborough Pigeon Prepatory School.  Required fields left blank will not allow the form to submit, so please ensure you complete the form in its entirety.</p>
+
         <form action="" method="" role="form">
           <fieldset>
             <legend>Parent Contact Information</legend>
-              <label>
+              <label class="half">
                 <span>First Name</span>
+                <input placeholder="Jane" type="text" tabindex="1">
+              </label>
+              <label>
+                <span>Middle Name</span>
                 <input placeholder="Jane" type="text" tabindex="1">
               </label>
               <label>
@@ -37,12 +45,87 @@
                 <input placeholder="Doe" type="text" tabindex="2">
               </label>
               <label>
-                <span>Address</span>
-                <input placeholder="555 Sunnyvale Ln." type="text" tabindex="3">
+                <span>Sex</span>
+                  <div class="radio">
+                    <input type="radio" name="sex" value="male"> Male 
+                    <input type="radio" name="sex" value="female">  Female
+                  </div>
               </label>
               <label>
-                <span>Telephone Number</span>
+                <span>Maiden Name (if applicable) </span>
+                <input placeholder="Doe" type="text" tabindex="2">
+              </label>
+              <label>
+                <span>Address</span>
+                <input placeholder="555 Sunnyvale Ln." type="text" tabindex="3">
+                <input placeholder="Tampa" type="text" tabindex="3" class="city">
+                <input placeholder="33609" type="text" tabindex="3" class="zip">
+              </label>
+              <label>
+                <span>State</span>
+                <div class="state-select">
+                  <select name="state">
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="DC">DC</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>
+                  </select>
+                </div>
+              </label>
+              <label>
+                <span>Home Number</span>
                 <input placeholder="813-444-4444" type="text" tabindex="4">
+                <span>Cell Number</span>
+                <input placeholder="813-555-5555" type="text" tabindex="4">
+                <span>Emergency Contact Number</span>
+                <input placeholder="813-777-7777" type="text" tabindex="4">
               </label>
               <label>
                 <span>E-mail Address</span>
@@ -61,14 +144,104 @@
                 <input placeholder="Doe" type="text" tabindex="7">
               </label>
               <label>
+                <span>Sex</span>
+                  <div class="radio">
+                    <input type="radio" name="sex" value="male"> Male 
+                    <input type="radio" name="sex" value="female"> Female 
+                  </div>
+              </label>
+              <label>
+                <span>Hair Color</span>
+                  <div class="radio">
+                    <input type="radio" name="hair-color" value="black"> Black 
+                    <input type="radio" name="hair-color" value="blonde"> Blonde
+                    <input type="radio" name="hair-color" value="red"> Red 
+                    <input type="radio" name="hair-color" value="brown"> Brown
+                  </div>
+              </label>
+              <label>
+                <span>Eye Color</span>
+                  <div class="radio">
+                    <input type="radio" name="eye-color" value="blue"> Blue 
+                    <input type="radio" name="eye-color" value="green"> Green 
+                    <input type="radio" name="eye-color" value="brown"> Brown 
+                  </div>
+              </label>
+              <label>
+                <span>Height</span>
+                <input placeholder="3'4" type="text" tabindex="1">
+              </label>
+              <label>
+                <span>Weight</span>
+                <input placeholder="46 pounds" type="text" tabindex="1">
+              </label>
+              <label>
                 <span>Address</span>
                 <input placeholder="555 Sunnyvale Ln." type="text" tabindex="8">
+              </label>
+              <label>
+                <span>State</span>
+                <div class="state-select">
+                  <select name="state">
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="DC">DC</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>
+                  </select>
+                </div>
               </label>
               <label>
                 <span>Known Allergies/Medical Conditions</span>
                 <input placeholder="asthma, penicillin allergy" type="text" tabindex="9">
               </label>
-              <input type="checkbox" name="vehicle" value="immunization-yes">My child has received proper immunizations.
+              <input type="checkbox" name="vehicle" value="vaccinations"> My child has received proper immunizations.
           </fieldset>
 
           <div class="buttons">
@@ -87,10 +260,10 @@
        </section>
 
        <section class="col-two">
-        <p>555 Fictional Road</p>
-        <p>Tampa, Florida</p>
-        <p>33609</p>
-        <p>1-813-555-5555</p>
+        <h3>555 Fictional Road</h3>
+        <h3>Tampa, Florida</h3>
+        <h3>33609</h3>
+        <h3>1-813-555-5555</h3>
        </section>
       </footer>
 
