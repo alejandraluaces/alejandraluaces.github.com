@@ -5,33 +5,33 @@ body {
 }
 
 #wrapper {
-  width: 98%;
+  background-color: #FFF1F0;
   height: 100%;
   margin: auto;
-  background-color: #FFF1F0;
   padding-top: 0;
   padding-bottom: 2em;
+  width: 98%;
 }
 
 header {
   box-sizing:border-box;
   -moz-box-sizing:border-box;
+  margin-bottom: 2em;  
   padding-bottom: 3em;
-  margin-bottom: 2em;
   text-align: center;
 }
 
 .active-page {
-  color: #444;
   background-color: rgb(183, 183, 183);
   background-color: rgba(183, 183, 183, .6);
-  box-shadow: inset 2px 2px 4px #4a5329;
+  box-shadow: inset 1px 1px 3px #888;  
+  color: #444;
 }
 
 .icons {
+  display: block;  
   font-size: 2em;
   margin: 1em auto;
-  display: block;
 }
 
 h1, h2, h3, h4 {
@@ -53,18 +53,18 @@ h1 {
 
 /*project/blog buttons*/
 h2 {
+  border: solid 1px #888;
+  border-radius: 9px;  
+  display: inline-block;
   font-size: 1.125em;
   margin: 1.125em;
-  display: inline-block;
   padding: .5em;
-  border: solid 1px #555;
-  border-radius: 9px;
 }
 
 /*post titles*/
 h3 { 
+  color: #FFB0A8;  
   font-size: 1.999em;
-  color: #FFB0A8;
   font-family: 'OpenSansBold';
 }
 
@@ -77,11 +77,11 @@ h4 {
 
 /*subheadings*/
 h5 {
+  color: #1693A5;  
   font-size: 1.266em;
-  color: #1693A5;
-  text-align: left;
   font-family: 'OpenSansLight', serif;
-  margin-bottom: .5em;
+  margin-bottom: .5em;  
+  text-align: left;
 }
 
 /*----------------LINKS
@@ -126,18 +126,18 @@ article {
 }
 
 li {
-  list-style-type: circle;
   color: #ff7f66;
+  list-style-type: circle;
   margin-left: 2em;
 }
 
 p {
+  color: #555;  
   font-size: 1.266em;
   font-family: 'OpenSansLight', sans-serif;
+  line-height: 1.5em;  
+  margin: .25em 0 1em 0;  
   text-align: justify;
-  color: #555;
-  line-height: 1.5em;
-  margin: .25em 0 1em 0;
 }
 
 em {
@@ -157,19 +157,19 @@ pre {
 }
 
 code {
-  display: inline;
   background-color: #ffcccc;
-  border-radius: 5px;
+  border-radius: 5px;  
+  display: inline;
 }
 
 blockquote {
-  font-family: 'OpenSansLight', sans-serif;
-  color: #333;
   border-left: 1em solid #ff7f66;
-  font-size: 1.5em;
-  margin: 1.5em 1.5em 1.5em 2em;
-  padding-left: 2em;
-  line-height: 1.5em;
+  color: #333;
+  font-family: 'OpenSansLight', sans-serif;
+  font-size: 1.266em;  
+  line-height: 1.266em;
+  margin: 1.266em 1.266em 1.266em 1.266em;
+  padding-left: 2.027em;
 }
 
 img {
@@ -181,8 +181,8 @@ img {
 }
 
 footer {
-  margin: 2em auto;
   border-top: 1px solid #FFB0A8;
+  margin: 2em auto;
   width: 50%;
 }
 
@@ -226,26 +226,10 @@ footer {
 @media screen and (max-width: 768px) {
 
 article {
+  margin: auto;  
+  padding: 0;  
   width: 90%;
-  padding: 0;
-  margin: auto;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
