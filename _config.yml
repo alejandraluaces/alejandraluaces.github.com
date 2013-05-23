@@ -6,4 +6,3 @@ markdown: rdiscount
 url: http://alejandraluaces.com
 baseurl: /
 permalink: /:title.html
-
