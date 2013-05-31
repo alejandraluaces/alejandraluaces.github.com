@@ -79,7 +79,7 @@ h4 {
 h5 {
   color: #1693A5;  
   font-size: 1.266em;
-  font-family: 'OpenSansLight', serif;
+  font-family: 'OpenSansLightItalic', serif;
   margin-bottom: .5em;  
   text-align: left;
 }
@@ -180,6 +180,13 @@ img {
   margin: 0 3em;
 }
 
+.big-img {
+  display: block;
+  float: none;
+  margin: 1em auto;
+  width: 90%;
+}
+
 footer {
   border-top: 1px solid #FFB0A8;
   margin: 2em auto;
@@ -225,10 +232,31 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+
+header {
+  padding-bottom: 0;
+}
+
+h1 {
+  padding-top: .5em;
+  font-size: 1.802em;
+}
+ h2 {
+  margin: .1em;
+ }
+
+ h2, h3, h4 {
+  font-size: 100%;
+ }
+
 article {
   margin: auto;  
   padding: 0;  
   width: 90%;
+}
+
+p {
+  font-size: 100%
 }
 
 }

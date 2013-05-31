@@ -19,6 +19,16 @@ body {
   padding: 7em 4em;
 }
 
+.logo {
+  position: absolute;
+  top: 2em;
+  left: 70%;
+  padding-right: 2em;
+  width: 20%;
+  height: auto;
+  max-width: 280px;
+}
+
 h1 {
   padding: .3em;
   margin: .2em;
@@ -86,8 +96,7 @@ h1 {
 }
 
 .stripe {
-  background-image: url('../images/scalebg.png');  
-  background-repeat: repeat-x;
+  background-color: rgb(195,192,132);  
   height: 3em;
 }
 
@@ -155,10 +164,9 @@ a:visited{
 
 #form-area {
   background-color: #fff;
-  height: 100%;
-  padding: 3em 0;
-  width: 95%;
-  margin: auto;
+  width: 80%;
+  margin: 2em auto;
+  border: 1px solid;
   box-sizing:border-box;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -179,12 +187,18 @@ p {
 }
 
 fieldset { 
-  padding: 2em 4em;
-  border: 1px solid #c0c0c0;
-  margin: 2em;
-  width: 30%;
-  display: inline-block;
+  width: 40%;
+  display: inline;
+  padding: 0 3%;
   vertical-align: top;
+  border: 0;
+  margin: auto;
+  float: left;
+}
+
+.right-col {
+  border-left: 1px dotted;
+  float: right;
 }
 
 label {
@@ -201,23 +215,17 @@ legend {
   text-align:left;
   color: #300030;
   font-family: 'OpenSansLightItalic';
-  padding: 0 1em;
+  padding: 1em;
 }
 
 #form-area input[type="text"] {
-    width:100%;
+    display: block;
     border:2px solid #e8e8e8;
     background-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.0);
     margin: .5em 0 2em 0;
     padding:10px;
     border-radius:5px;
-}
-
-#form-area [type="checkbox"] {
-  border:2px solid #e8e8e8;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.0);
 }
 
 #form-area input[type="text"]:focus {
@@ -230,36 +238,49 @@ legend {
     transition: border linear .2s;
 }
 
-.buttons {
-  width: 40%;
-  margin: auto;
+.submit-buttons {
+  width: 100%;
+  margin: 2em auto 0 auto;
   text-align: center;
+  vertical-align: bottom;
+  display: inline-block;
+  clear: both;
 }
 
 .radio {
-  padding-left: 2em;
+  padding-left: 1em;
   display: inline-block;
-  padding-bottom: 2em;
+}
+
+.ind-radio {
+  margin: 0 .1em 0 .3em;
 }
 
 .state-select {
-  padding-left: 2em;
-  display: inline-block;
-  padding-bottom: 2em;
+  padding-left: 1em;
+  display: inline;
+}
+
+.street {
+  width: 20em;
+  margin-bottom: 0;
 }
 
 .zip {
-  width: 5%;
-  display: inline-block;
+  width: 5em;
+  display: inline !important;
+  margin-bottom: 0 !important;
 }
 
 .city {
-  width: 20%;
-  display: inline-block;
+  width: 8em;
+  display: inline !important;
+  margin-bottom: 0 !important;
 }
 
 label {
   display: block;
+  margin-bottom: 2em;
 }
 
 .btn {
@@ -269,6 +290,14 @@ label {
   padding: .75em 1.25em;
   display: inline;
   border-radius: 8px;
+}
+
+.img-upload {
+  background: none;
+  display: inline-block;
+  padding: .5em;
+  background-color: #c0c0c0;
+  font-size: .75em;
 }
  
 input[type="submit"] { 
@@ -327,10 +356,10 @@ input[type="submit"]:hover {
 
 /*Responsive----------------*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
 
 .school-img {
-  padding: 2em;
+  padding: 1em;
 }
 
 h1 {
@@ -367,16 +396,26 @@ legend {
 
 #form-area {
   margin: 0 auto 2em auto;
+  width: 98%;
+  border: 0;
+  padding: 1em;
+  height: 220em;
+}
+
+.img-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: #c0c0c0;
 }
 
 fieldset {
-  width: 70%;
-  padding: 1em 3em;
+  width: 95%;
+  padding: 0;
   margin: 2em 0;
+  float: none;
 }
 
-.buttons {
-  width: 80%;
+.submit-buttons {
   margin: auto;
 }
 
@@ -394,10 +433,17 @@ footer h1 {
   width: auto;
 }
 
-.col-two {
-  display: block;
-  width: 85%;
+.right-col {
+  float: none;
+  border: none;
 }
 
+#form-area input[type="text"] {
+    width:80%;
+    border:1px solid #888;
+}
 
+.logo {
+  display: none;
+}
 }

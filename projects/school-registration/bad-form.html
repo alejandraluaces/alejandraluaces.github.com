@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/normalize.css" media="screen">
     <link rel="stylesheet" href="css/styles.css"  media="screen">
+    <link rel="stylesheet" href="css/bad-inputs.css"  media="screen">
     <link rel="stylesheet" href="css/home-embedded.css"  media="screen">
     <title>Register Now!</title>
   </head>
@@ -30,6 +31,10 @@
         <h2>Parent & Child Registration Information</h2>
         <p>Please fill out the following online forms in order to begin registering your child in Hillsborough Pigeon Prepatory School.  Required fields left blank will not allow the form to submit, so please ensure you complete the form in its entirety.</p>
 
+        <section class="incomplete-notice">
+            <p><strong>Sorry</strong>, you left something blank! 
+        </section>
+
         <form action="" method="" role="form">
           <fieldset>
             <legend>Parent Contact Information</legend>
@@ -47,13 +52,13 @@
               </label>
               <label>
                 <span>Maiden Name (if applicable) </span>
-                <input placeholder="Doe" type="text" tabindex="4">
+                <input placeholder="Doe" type="text" tabindex="6">
               </label>
               <label>
                 <span>Sex</span>
                   <div class="radio">
-                    <input type="radio" name="sex" value="male" class="ind-radio" tabindex="5"> Male 
-                    <input type="radio" name="sex" value="female" class="ind-radio" tabindex="6">  Female
+                    <input type="radio" name="sex" value="male" class="ind-radio" tabindex="4"> Male 
+                    <input type="radio" name="sex" value="female" class="ind-radio" tabindex="5">  Female
                   </div>
               </label>
               <img src="images/placeholder.png">
@@ -225,7 +230,7 @@
               </label>
               <label>
                 <span>Cell Number</span>
-                <input placeholder="813-555-5555" type="text" tabindex="4">
+                <input placeholder="813-555-5555" type="text" tabindex="4" class="incomplete">
               </label>
               <label>
                 <span>Hair Color</span>
