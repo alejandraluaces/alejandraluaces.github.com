@@ -180,6 +180,13 @@ img {
   margin: 0 3em;
 }
 
+.big-img {
+  display: block;
+  float: none;
+  margin: 1em auto;
+  width: 90%;
+}
+
 footer {
   border-top: 1px solid #FFB0A8;
   margin: 2em auto;
