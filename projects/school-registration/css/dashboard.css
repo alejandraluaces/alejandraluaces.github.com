@@ -68,6 +68,19 @@ h5 {
 	margin: 1em 0;
 }
 
+.darker {
+	background-color: rgb(48, 0, 48);
+	background-color: rgba(48, 0, 48, .5);
+	position: absolute;
+	font-size: 2.25em;
+	left: 90%;
+}
+
+.darker:hover {
+	background-color: rgb(48, 0, 48);
+	background-color: rgba(48, 0, 48, .2);
+}
+
 /*******P A R E N T container**********/
 
 #parent {
