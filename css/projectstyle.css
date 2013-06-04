@@ -175,6 +175,13 @@ img {
   width: 100%;
 }
 
+.smaller {
+  max-width: 250px;
+  height: auto;
+  margin: 1em;
+  float: right;
+}
+
 footer {
   border-top: 1px solid #142441;  
   margin: 2em auto;
