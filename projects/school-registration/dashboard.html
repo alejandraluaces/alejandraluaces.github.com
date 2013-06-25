@@ -11,35 +11,51 @@
     <link rel="stylesheet" href="css/normalize.css" media="screen">
     <link rel="stylesheet" href="css/styles.css"  media="screen">
     <link rel="stylesheet" href="css/dashboard.css"  media="screen">    
-    <link rel="stylesheet" href="css/home-embedded.css"  media="screen">
     <link rel="stylesheet" href="css/dashboard-icons-embedded.css"  media="screen">
+      <link rel="stylesheet" href="css/orbit-1.2.3.css">
+      <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script> 
     <title>Dashboard</title>
+
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('#featured').orbit();
+      });
+    </script>
+
   </head>
 
   <body>
     <div id="wrapper">
-      <section class="school-img">
+      <div class="school-img">
        <h1 class="animated fadeInLeft">It's never too late</h1><br>
        <h1 class="animated fadeInLeft">to register your child.</h1>
        <img src="images/logo.png" class="logo">
-      </section>
+      </div>
       <div class="stripe"></div>
 
-      <section id="parent">
-        <a href=""><span class="icon-circle icon-pencil darker"></span></a>
-        <section class="parent-img">
-          <img src="images/parent.png">
-        </section>
 
-        <section class="parent-info">
-          <h2>Jane Doe</h2>
-          <h3><em>Primary Parent</em></h3>
-          <h4>Date of Birth: 7/1/1976</h4>
-          <h4>Primary Phone: 1 (813) 565-9386</h4>
-          <h4>E-mail Address: jdoe@gmail.com</h4>
-          <h4>Physical Address: 1234 Cedar Lane.</h4>
-        </section>
-      </section>
+      <div id="featured">
+        <div class="content">
+          <div id="parent">
+            <a href=""><span class="icon-circle icon-pencil darker"></span></a>
+            <div class="parent-img">
+              <img src="images/parent.png">
+            </div>
+            <div class="parent-info">
+              <h2>Jane Doe</h2>
+              <h3><em>Primary Parent</em></h3>
+              <h4>Date of Birth: 7/1/1976</h4>
+              <h4>Primary Phone: 1 (813) 565-9386</h4>
+              <h4>E-mail Address: jdoe@gmail.com</h4>
+              <h4>Physical Address: 1234 Cedar Lane.</h4>
+            </div>
+          </div>
+        </div>
+        <img src="images/p.png" style="width:1300px; height:23em"/>
+      </div>
+
+    </div>
 
       <section id="kid-columns">
 
