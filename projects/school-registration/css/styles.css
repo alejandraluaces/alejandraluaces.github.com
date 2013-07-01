@@ -231,7 +231,7 @@ legend {
 #form-area input[type="text"]:focus {
     background-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 1.0);
-    border: 2px solid #c0c078;
+    border: 10px solid #c0c078;
     outline: none;
     -webkit-transition: border linear .2s;
     -moz-transition: border linear .2s;
@@ -303,6 +303,7 @@ label {
 input[type="submit"] { 
   background-color:#c3c379; 
   color: #44431b; 
+  background-color: transision ease-in-out .3s;
 }
 
 input[type="submit"]:hover {
