@@ -303,7 +303,7 @@ label {
 input[type="submit"] { 
   background-color:#c3c379; 
   color: #44431b; 
-  background-color: transision ease-in-out .3s;
+  background-color: transition ease-in-out .3s;
 }
 
 input[type="submit"]:hover {
