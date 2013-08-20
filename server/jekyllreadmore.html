@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <html lang="en">
+    <meta name=viewport
+    content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for alejandraluaces.com" href="/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/normalize.css" media="screen">
+    <link rel="stylesheet" href="/css/style.css"  media="screen">
+    <link rel="stylesheet" href="/css/fontello-embedded.css"  media="screen">
+    <title>Jekyll Read More Functionality</title>
+  </head>
+
+  <body>
+    <div id="wrapper"> 
+      <header>
+        <a href="/"><h1>alejandra luaces</h1></a>
+        <section class="icons">
+          <a href="http://github.com/alejandraluaces"><span class="icon-github icon"></span></a>
+          <a href="http://twitter.com/alejandraluaces"><span class="icon-twitter icon"></span></a>
+          <a href="http://pinterest.com/aluaces"><span class="icon-pinterest icon"></span></a>
+          <a href="http://dribbble.com/alejandraluaces"><span class="icon-dribbble icon"></span></a>
+        </section>
+        <h2 class="active-page">blog page</h2><h2><a href="../projects/index.html">project page</a></h2>
+      </header>
+
+          <article>
+            <h3><a href="/jekyllreadmore.html">Jekyll Read More Functionality</a></h3>
+            <h4>May 22, 2013</h4>
+            <p>Jekyll was completely new to me when I started this apprenticeship, and I find that I still struggle with it sometimes; there are so many possibilities that is met with a startling lack of documentation or resources for people just starting out. Perhaps I can start to get my list of tips and tricks together to make a little more beginner-friendly blog post. But that's later.</p><!-- more -->
+<p>So, ever since my <a href="/usertesting.html">user testing</a> project where I first engaged in user testing my blog layout, I have been wanting to add a "Read More.." link to the projects page of my blog so that only an image would appear on the "front", and you could have the option of clicking to read more about my experience in making the project. However, the documentation available online is sparse and I really just wanted to be able to figure it out myself. I pushed this to the back burner while I dealt with more high-priority things, but when I saw <a href="http://meaganewaller.github.io">Meagan's</a> new blog layout, I saw she had added "Read more.." links to hers! </p>
+<p>So, the way she did it was by replacing <code> {{ post.content }}</code> with <code>  {{ post.excerpt }} </code>. This was supposed to tell Jekyll to create an excerpt from the available text. Of course, abiding by Murphy's Law, this method did not work for me, so I had to hop on the dreaded Google and do some more research.</p>
+<p>I did find some more helpful articles, <a href="http://metaclaws.com/2012/03/03/jekyll_post_excerpts_plugin_and_also_without_a_plugin_for_use_on_github_pages/">one of which</a> really helped to explain this to me in a way I could understand.  It was important to find something that I could really understand and be able to implement without it being a huge headache for my non-programmery mind. So, this is the solution that worked for me: on my index pages, instead of putting <code> {{ post.content }}</code>, I replaced it with <code>{{ post.content | split: '&#60;!-- more -->' | first }}</code>, making sure to put a link beneath it that'll navigate to the permalink where the user will be able to read the rest of the article.  This lets the index pages split your articles wherever the <code>&#60;!-- more --></code> comment appears.</p>
+          </article>
+
+    </div>
+  </body>
+</html>

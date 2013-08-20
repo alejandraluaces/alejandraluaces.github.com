@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Alejandra Luaces</title>
+		<description>Alejandra's Design Blog - 8th Light Apprenticeship</description>
+		<link>http://alejandraluaces.com</link>
+		<atom:link href="http://alejandraluaces.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>United Airlines Redesign</title>
+				<description>&lt;img src=&quot;images/united1.png&quot;&gt;
+&lt;p&gt;Recently, I was tasked with redesigning the United website for a small board of people within 8th Light. The parameters I was given were just to keep all of the links/information, or have a good reason for excluding/moving it. I was told to create an HTML page that had no functionality, and to just &quot;go crazy&quot; to demonstrate my style and what I think would be a good user experience. So, it was definitely fun.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;The United website is stale and confusing.  There are too many columns and tabs placed arbitratily throughout the page, which is also riddled with advertisements with their services.&lt;/p&gt;
+&lt;p&gt;The goal I'd set for myself in this redesign was to design the page as an ode to the earlier days of air travel, where it was fun, easy, and luxurious. My first thought was of the Pan Am advertisements in old magazines which either made use of large pictures or illustrations of exotic destinations or used imagery of beautiful, well-dressed people lounging on a plane.  I wanted to bring back the element of intrigue, comfort, and extravagance to the proposed website since air travel these days seems more a burden than a pleasure.&lt;/p&gt;
+&lt;img src=&quot;images/panam.png&quot;&gt;
+&lt;p&gt;Since lots of the options on the original United website could be done without, I opted to simplify the layout quite a bit. I made the navigation simpler, include big images of travel destinations that would make the user feel excited or calm, and used more casual phrasing and simple questions. The goal here was for the advertising to be more loyalty- or trust-based as opposed to feeling forced or gimmicky.&lt;/p&gt;
+&lt;img src=&quot;images/united2.png&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src=&quot;images/united3.png&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src=&quot;images/united4.png&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;All in all it was a really fun project to work on, and definitely presented its challenges.  I learned a lot, like how to create responsive tabs (which I'd never actually had to do before) and worked with some Javascript (the images parallax when scrolling.)&lt;/p&gt;  
+&lt;p&gt;Upon completion of the project, I had an IPM with a small review board that included some craftsmen at 8th Light. I think the IPM went really smoothly.  Everyone offered great critiques and input which was really helpful and I think I handled all of the information really well.&lt;/p&gt;
+&lt;p&gt;Here's to more awesomeness like this in the future!&lt;/p&gt;</description>
+				<pubDate>Wed, 17 Jul 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/united.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/united.html</guid>
+			</item>
+		
+			<item>
+				<title>Lightning Talk: Using Colors & Numbers in Design</title>
+				<description>&lt;p&gt;Today, I will be giving a lightning talk about colors and numbers.  I discussed numbers in design briefly in my post about &lt;a href=&quot;http://alejandraluaces.com/decodingdesign.html&quot;&gt;Decoding Design: Understanding and Using Symbols in Visual Communication&lt;/a&gt;. &lt;/p&gt;
+&lt;iframe src=&quot;http://www.slideshare.net/alejandraluaces/slideshelf&quot; width=&quot;615px&quot; height=&quot;470px&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;The other apprentices will be giving talks as well. I am super excited since, as today is Friday, there will be several people coming to listen.  One of my passions is teaching people about the things I really love and believe in--of course, one of them being design principles and how to engage people in your product, service, etc.  So, it'll be fun teaching a group of programmers the basics about colors and numbers! Angelique and Susan (two other 8th Light employees who have been in town this week) are here too, so I am excited to show them my presentation as well.&lt;/p&gt;
+&lt;p&gt;If you're interested in viewing the slides, you can scroll through them here. It's a bit different because the slides aren't accompanied by my bad jokes and explanations! But it'll serve until I have time to make a modified slideshow with notes. :) &lt;/p&gt;</description>
+				<pubDate>Fri, 12 Jul 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/colorandnumber.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/colorandnumber.html</guid>
+			</item>
+		
+			<item>
+				<title>Decoding Design</title>
+				<description>&lt;p&gt;&lt;em&gt;Decoding Design: Understanding and Using Symbols in Visual Communication&lt;/em&gt; turned out to be a really great book. At first, I delayed reading it because the artwork inside seemed outdated, almost textbook-like in nature. Contrary to my first thought, the book is not outdated but covers principles that are firmly rooted in art, mathematics &amp; science and thus, are timeless.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;This book has really inspired me to look closer into the reasons why things as subtle and seemingly irrelevant as numbers trigger such an emotional reaction.  I am highlighting the meanings behind, and the imporance of, the numbers 1, 2, 3, and 5 (which, coincidentally, are the first numbers of the Fibonacci sequence).  These are the numbers that I think are the most important in design, especially when grouping elements.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One:&lt;/strong&gt; The number one represents an individual item, but also the &quot;whole&quot;; everythingness. It represents our beginning (whatever you choose to believe is the beginning, whether it is the first amoebic life on this earth, a specific creator, being, or diety, the beginning of the universe, etc). It is important to remember that &quot;in order to perceive &quot;one&quot;, a field of nothingness is necessary.&quot; Therefore, ONE single item that you'd like to stand out needs to be displayed amongst things that have a similar contrast to the background, fonts that are a lighter weight, or just stark nothingness.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two:&lt;/strong&gt; Two is a very symbolic number. It is the origin of lots of religious symbols in particular.  The yin-yang is based on two--showing opposites that are interdependent. Two is best used when trying to demonstrate high tension in design, or strong partnership.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Three:&lt;/strong&gt; Three is probably the most important number in design because it's roots are biological in nature--three is a very pleasing number to group elements in because it signifies completion.  Everything has a beginning, middle, and an end. The color we see is based on three--light wavelengths are based on three components and the ways they reflect or blend. In math, three is the first number to represent a plane or surface (one is just a point, two is a line). It also signifies balance - &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Five:&lt;/strong&gt; Five is the number of the human element.  It is relateable, foundational, and represents quintessence or the &quot;fifth element&quot;. To be used in navigation most effectively.&lt;/p&gt;</description>
+				<pubDate>Tue, 02 Jul 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/decodingdesign.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/decodingdesign.html</guid>
+			</item>
+		
+			<item>
+				<title>Ordering Disorder: Grid Principles for Web Design</title>
+				<description>&lt;p&gt;&lt;em&gt;Ordering Disorder&lt;/em&gt; by Khoi Vinh is similar to a lot of the other design books I've read during my apprenticeship. Most of its content relates to the grid structure and designing a website.  It also gives a list of steps that can be followed when executing a design.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;The emphasis is on research and sketching. Vinh maintains that most of a designer's time should be spent in the research and sketching/planning process as opposed to in the coding process.  For me personally, this is really sound advice--I tend to start hacking away at code, changing things here and there to reflect what I'm seeing in my mind's eye.  I have never really felt any need to step up my planning game until working for 8th Light.  Now, I see its importance.&lt;/p&gt;
+&lt;p&gt;Good design is measured by how well it responds to the original problem, not how pretty it is, or how the color flows, or how intuitive the UX may be (though, those things may be solutions to an overall problem). This is why so much time should be spent in thoughtful study &amp; brainstorming how to create a solution to a company's problem.  This is also where restraints should be considered, including technical, business, and content/editorial restraints.&lt;/p&gt;
+&lt;p&gt;Vinh also indicates that sketching is super important; not just in the beginning of your project, but throughout, as an easy/cheap way to brainstorm and test solutions.  Making Illustrator mockups at this point just won't cut it--he says to stick to pencil and paper for your first iterations, and then switch to more detailed sketches and mockups later on in the process. &lt;/p&gt;
+&lt;p&gt;The rest of the book beyond the Process section is all about Execution.  Here, you are taken step-by-step through the design of the Designery.us project, which helps the reader understand the practical application of what was only just touched on in earlier chapters.&lt;/p&gt;
+&lt;p&gt;Though similar to a lot of other books I've utilized in my apprenticeship, this book deserves a slot in my toolbox.&lt;/p&gt;</description>
+				<pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/orderingdisorder.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/orderingdisorder.html</guid>
+			</item>
+		
+			<item>
+				<title>Software Craftsmanship North America Website Redesign</title>
+				<description>&lt;img src=&quot;images/scna2012.png&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://adamkaplandesign.com&quot;&gt;Adam Kaplan&lt;/a&gt; (the other design apprentice) gave the SCNA website a little facelift.  The website was originally done by &lt;a href=&quot;http://nickmeccia.tumblr.com&quot;&gt;Nick Meccia&lt;/a&gt;  did &lt;a href=&quot;http://scna2012.softwarecraftsmanship.com&quot;&gt;the website&lt;/a&gt; from last year.  It was super great, but we were asked to update it and change it to reflect current web trends and new web standards/practices. So, we broke the site up into sections to put emphasis on both our own creative potential, on the speakers, and on the attendees!&lt;/p&gt;
+&lt;a href=&quot;http://scna.softwarecraftsmanship.com&quot;&gt;&lt;img src=&quot;images/scna2013.png&quot;&gt;&lt;/a&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;The page is written in Hiccup, which is a templating language for Clojure.  Adam took over most of the structural components and transferred the existing information over, and put up the new speakers and information.  I did what I do best and created some fun icons/badges for the front page, and paired with Adam to organize the contents and get the forms up an running.  It was a great experience in teamwork and pair programming as well.&lt;/p&gt;</description>
+				<pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/scna.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/scna.html</guid>
+			</item>
+		
+			<item>
+				<title>The Passionate Programmer</title>
+				<description>&lt;p&gt;&lt;em&gt;The Passionate Programmer: Creating a Remarkable Career in Software Development&lt;/em&gt; is a book whose chapters are written as &quot;tips&quot;, giving it a more casual, friendlier feel than many guides to a programming career.  It is meant to be an answer or even rebuttal to &lt;em&gt;The Pragmatic Programmer: From Journeyman to Master&lt;/em&gt;, a book talking about becoming a programmer or advancing in your programming career &quot;by coincidence&quot;. The author of the book is also a musician, creating some interesting parallels between that and programming.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;Like most of the &quot;career advice&quot; books I've been reading through my apprenticeship, this one offers frank but humerous advice like &quot;Love it or Leave it,&quot; and &quot;Don't Listen to Your Parents,&quot; ideas suggesting picking risk over security and pursuing only what you love the most, and not settling for less. These points, among others, are what really stood out to me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Coding Don't Cut it Anymore&lt;/strong&gt;: Just doing what you do isn't enough. You must strive to become the master of your profession.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be The Worst&lt;/strong&gt;: If you're the worst you're sure to be surrounded by the best, from whom you can learn and vibe off of, thus making your work better and stronger. Emulation is inevitable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be a Generalist&lt;/strong&gt;: Be able to do many things. Don't just &quot;graphic design&quot;, don't just &quot;program&quot;. Know how to do a little of each. Generalists are rare and precious.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be a Specialist&lt;/strong&gt;: ..but be a specialist in at least a few things. Be a master of these few things and have a deeper, more intimate understanding of them.. but still know how to do other things that are not &lt;em&gt;those&lt;/em&gt; things.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Right Now&lt;/strong&gt;: Don't give yourself the option to put things off.  Do things &lt;em&gt;right now&lt;/em&gt;. A sense of urgency will increase productivity.&lt;/p&gt;</description>
+				<pubDate>Sun, 23 Jun 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/passionateprogrammer.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/passionateprogrammer.html</guid>
+			</item>
+		
+			<item>
+				<title>Chicago</title>
+				<description>&lt;img src=&quot;/blog/images/chicago/nightcity.JPG&quot;&gt;&lt;p&gt;Two weeks ago, myself and four coworkers traveled to visit our home office in Chicago. It was my first time experiencing flying after what I will affectionately refer to here as the &quot;Baltimore Flying Fiasco of 2011&quot;. Of course, as most people do, I learned it was not that bad and really quite great.  After two and a half hours, we were in a completely different and uniquely beautiful place, so it was all well worth it.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;We stayed in a hotel relatively close to work. The first night we got in late--around 10:30 PM--and we still had to fetch water, chapstick, and other small comforts for our hotel rooms. This gave us an opportunity to get a glimpse of the beautiful city all lit up at night.&lt;/p&gt;
+&lt;p&gt;I awoke in the morning quite early because of the time difference, and was greeted by a beautiful sunrise over the skyscrapers.  The picture does it no justice, really.&lt;/p&gt;
+&lt;img src=&quot;/blog/images/chicago/balcony1.JPG&quot; class=&quot;big-img&quot;&gt;
+&lt;p&gt;We saw lots of amazing sights just on our walk into work on the first day. &lt;img src=&quot;/blog/images/chicago/city.JPG&quot;&gt;Throughout our visit, we got to go to some really really cool places to eat including the French Market which had several different vendors selling all kinds of food.  There was a fresh fruit smoothie place, a korean place (I got bulgogi), French food, fresh fish and meats, organic vegetables, a raw/vegan bar, and sushi! There was no shortage of amazing stuff. Our first night, we went out to enjoy drinks (well, not me) and foie gras (yes, me!) It was delightful. &lt;/p&gt;
+&lt;p&gt;Seeing how immense the city really is was the most amazing thing to me as a first time Chicago goer.&lt;/p&gt;
+&lt;p&gt;We worked with new people and at the end, got to go on a company bike ride through town. We got to see Lake Michigan and feel the amazing cool breeze blowing from the northeast that a storm two nights prior brought over.&lt;/p&gt;
+&lt;img src=&quot;blog/images/chicago/bike.JPG&quot; class=&quot;big-img&quot;&gt;
+</description>
+				<pubDate>Mon, 17 Jun 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/chicago.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/chicago.html</guid>
+			</item>
+		
+			<item>
+				<title>Partnership Project</title>
+				<description>&lt;a href=&quot;http://alejandraluaces.com/projects/school-registration/index.html&quot;&gt;&lt;img src=&quot;/projects/school-registration/images/screenshot2.png&quot; size=&quot;auto&quot;&gt;&lt;/a&gt;
+&lt;!-- more --&gt;
+&lt;img src=&quot;../projects/school-registration/images/screenshot.png&quot;&gt;
+&lt;p&gt;I know I've mentioned a little about the partnership project I've been working on with my mentor, Justin. To debrief again: I was tasked to build a site that a parent could access to be able to register their child. The parent would then be able to pull their information from the database and edit it, if need be.&lt;/p&gt;&lt;img src=&quot;/../projects/school-registration/images/animation.gif&quot; class=&quot;smaller&quot;&gt;
+&lt;p&gt;Since the beginning of this project, the parameters have evolved, as they often do when a client's needs grow and change.  From this initial concept has grown a dashboard page which I am very fond of--employing flat design and my penchant for color, I created a columned layout where hypothetical parents can access their child's information and even add new children conveniently from the same page. I used understated iconography and beautiful, subtle CSS transitions to get the point across.&lt;/p&gt;
+&lt;p&gt;I am excited for the next stages of my project. The next stage will be building a screen where a child can be added/edited from the dashboard instead of having to go to a completely different registration page.  After that, I am hoping to add some jQuery for a rolodex effect on mobile. I don't want to do anything too flashy since I want it to conform to real life needs.. a school most likely wouldn't implement fancy transitions and other such details, since most of their clientele may not be 100% tech savvy, or the expensive work may be lost on them.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 03 Jun 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/partnershipproject.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/partnershipproject.html</guid>
+			</item>
+		
+			<item>
+				<title>Hindsight</title>
+				<description>&lt;p&gt;It's funny to look back on my projects and posts and see the feelings I was going through and the things I was struggling with. They all seem pretty trivial now. I went back and read about semantic HTML and making progress bars with CSS, and laughed aloud at how much better I have gotten, and not just with comptuer-related stuff.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;I used to just freeze and procrastinate on things when I didn't know how they worked; fearing I wouldn't be able to get them done, or get them done on time.. fearing I would mess it up or no one would like it. Now, I am much more eager to learn new things and am more open to, and capable of, absorbing this new information. When pairing with folks in my office, my fingers fly across the keys--sometimes, I know exactly which CSS trick to try to get things working again. I am so proud of myself when I can easily come up with a solution for a coworker. It makes me feel more a viable part of our team.&lt;/p&gt;</description>
+				<pubDate>Mon, 03 Jun 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/hindsight.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/hindsight.html</guid>
+			</item>
+		
+			<item>
+				<title>This week..</title>
+				<description>&lt;p&gt;Obviously, this week has been a bit of a whirlwind. I haven't had any time to post, really, since we had a three day weekend this past weekend and I really had to hit the ground running to get my stories done for IPM on Wednesday and for today, Friday.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;The school registration page is coming along just fine. It's all about adding little by little to refine the design and add new features, so I figure it's pretty close to how real client work will be with 8th Light. I am starting to add some fancy CSS transitions and effects, and am really excited to start plugging some jQuery in.&lt;/p&gt;
+&lt;img src=&quot;/blog/images/tictactoe.png&quot;&gt;&lt;p&gt;I am also working on some other projects besides my partnership project. I'll be working on a tic tac toe interface with Chong, and working on a site with Adam for some security talks he will be doing. I also recently found out I'll be redesigning the SCNA website, which is both an honor and a terror! I have tons of ideas, though, so I know I'll make something totally bad ass.&lt;/p&gt;
+&lt;p&gt;Miami this weekend for a much needed break. ^^ I'll be going on a private feeding tour with a friend of mine from zookeeping school who works in the Zoo Miami aviary. Then, we'll go to an art show, where the animals' art will be displayed. Then, on Sunday, I'll be heading to Fairchild Botannical Gardens where they have a plant show and sale. Hoping to find some cool stuff for the backyard.&lt;/p&gt;
+&lt;p&gt;Until next time!&lt;/p&gt;</description>
+				<pubDate>Fri, 31 May 2013 00:00:00 -0400</pubDate>
+				<link>http://alejandraluaces.com/thisweek.html</link>
+				<guid isPermaLink="true">http://alejandraluaces.com/thisweek.html</guid>
+			</item>
+		
+	</channel>
+</rss>

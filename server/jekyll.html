@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <html lang="en">
+    <meta name=viewport
+    content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for alejandraluaces.com" href="/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/normalize.css" media="screen">
+    <link rel="stylesheet" href="/css/style.css"  media="screen">
+    <link rel="stylesheet" href="/css/fontello-embedded.css"  media="screen">
+    <title>Jekyll Woes</title>
+  </head>
+
+  <body>
+    <div id="wrapper"> 
+      <header>
+        <a href="/"><h1>alejandra luaces</h1></a>
+        <section class="icons">
+          <a href="http://github.com/alejandraluaces"><span class="icon-github icon"></span></a>
+          <a href="http://twitter.com/alejandraluaces"><span class="icon-twitter icon"></span></a>
+          <a href="http://pinterest.com/aluaces"><span class="icon-pinterest icon"></span></a>
+          <a href="http://dribbble.com/alejandraluaces"><span class="icon-dribbble icon"></span></a>
+        </section>
+        <h2 class="active-page">blog page</h2><h2><a href="../projects/index.html">project page</a></h2>
+      </header>
+
+          <article>
+            <h3><a href="/jekyll.html">Jekyll Woes</a></h3>
+            <h4>April 05, 2013</h4>
+            <p>For this apprenticeship, I was tasked with setting up my blog using Jekyll and Github Pages.  Though I barely managed and had lots of help, I have been able to both maintain it and make massive changes.  Like anything, with exposure and a "dive in head first" mentality, learning is somewhat easy. Google searches also help.</p><!-- more -->
+
+<p>Lately, I have been issues with my blog. First, the posts weren't showing up in the right "sections". Next, the images stopped working. Then, the layout.html/styles.css files weren't working. What gives? First, know a couple things about the way my blog is set up.</p>
+
+<p>The way my blog works is that I have two blogs within one. Confusing? Sure. But it works.</p>
+
+<pre>
+|--_config.yml
+|--_includes
+|--_layouts
+|  |--default.html
+|  |--post.html
+|--blog
+|  |--index.html
+|  |--_posts
+|  |  |--2012-04-06-hello-world.md
+|--projects
+|  |--index.html
+|  |--_posts
+|--index.html
+</pre>
+<p>Each section should have its own folder, wherein you'll have an index.html, a _posts folder, and perhaps some other folders (although not necessary): css, images, etc. You'll have two different html files in the layouts folder, and you'll direct to them from the yaml front matter included in all of the posts.</p>
+<p>Yaml is touchy. I learned this the hard way. My posts were in their respective sections (the _posts folder of each "separate" blog) and I was updating everything just as I should. So, what was the problem?</p>
+<p>Punctuation. Punctuation was all the problem. This is something I never would have been able to figure out myself, because I do not think like a programmer. I am not hard wired to question the punctuation in anything, where it's placed, or what it could mean. All I know is that gramatically, it makes sense, and so I'm using it.</p>
+<p>At the top of every blog post you'll put in the "_posts" folder, you'll have some Yaml that will tell the post how it will be laid out, where it is going on the page, and what the title and date are.  These are all user-specified.  If there is any punctuation in these, it will mess up.  I had a post in my blog/_posts/ folder whose title contained a colon. That little colon completely derailed my blog.</p>
+<h2>So, how did I find the error?</h2>
+<p>My mentor Justin showed me how to run <code>jekyll --no-auto --server</code>, which specifically tells you where your errors may be, the file name/location, and line number. It'll also let you know which character is throwing a wrench into the delicate innerworkings of your site. Pretty sweet.</p>
+<p>Erasing the _site directory is another thing that you might want to do as well if you're encountering problems like this. That'll ensure that you're working from a clean slate if you have any corrupt files, and will help to avoid having to make changes to a bunch of files.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </article>
+
+    </div>
+  </body>
+</html>
