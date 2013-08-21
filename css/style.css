@@ -1,5 +1,11 @@
 /*----------------MAIN
 ------------------------------------------------*/
+* {
+  moz-box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
 }
@@ -43,19 +49,17 @@ header {
 
 #header-image {
   max-width: 330px;
-  margin: 2em auto;
+  margin: 2em auto 1em auto;
 }
 
 /*intro*/
 h1 {
-  background: rgba(255,255,255,.5);
-  color: #000;
+  color: #fff;
   font-size: 1.5em;
-  padding: .3em;
-  width: 20.5em;
   margin: 0 auto;
   font-family: 'lora', 'times new roman', serif;
   font-weight: 400;
+  text-align: center;
 }
 
 h1 a {
@@ -78,9 +82,6 @@ h1 a:hover {
   background-color: #2A363B;
   margin-bottom: 8em;
   padding: .7em 2em;
-  moz-box-sizing: border-box;
-  webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 h2 {
@@ -89,7 +90,7 @@ h2 {
   display: inline-block;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'open sans', 'Arial', sans-serif;
+  font-family: 'open sans', 'Helvetica', sans-serif;
   font-weight: 700;
   width: 49%;
   vertical-align: middle;
@@ -143,6 +144,7 @@ article h1 {
   width: auto;
   padding: 0;
   color: #29353a;
+  text-align: left;
 }
 
 h3 {
