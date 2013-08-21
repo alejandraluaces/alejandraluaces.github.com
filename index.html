@@ -6,15 +6,10 @@ title: alejandra luaces
   <article>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     	<h4>{{ post.date | date: "%B %d, %Y" }}</h4>
-		    <p>{{ post.content | split: '<!-- more -->' | first }}</p>
-		    <p><a href="{{ post.url }}">Read more...</a></p>
+		    <p>{{ post.content}}</p>
   </article>
 
-	<footer>
-		<div class="footer-image">
-			<img src="/blog/images/footer.png">
-		</div>
-	</footer>
+
 
 {% endfor %}
 </div>

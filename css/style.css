@@ -1,7 +1,7 @@
 /*----------------MAIN
 ------------------------------------------------*/
 body {
-
+  font-size: 16px;
 }
 
 em {
@@ -10,13 +10,28 @@ em {
   font-style: italic;
 }
 
+p strong {
+  font-family: 'open sans', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
 img {
-  margin: 1.3em auto;
+  margin: 0 auto 1em auto;
 }
 
 li {
   list-style: none;
   margin-left: 40px;
+  font-size: 1.5em;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*----------------HEADER
@@ -122,8 +137,9 @@ h2 {
 
 article {
   width: 60%;
-  margin: 0 auto 2em auto;
+  margin: 0 auto 5em auto;
   text-align: justify;
+  hypens: auto;
 }
 
 h3 {
@@ -158,19 +174,19 @@ h4 {
   font-size: 1em;
   font-family: 'lora', 'times new roman', serif;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 2em 0;
   color: #c0c0c0;
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-family: 'Lora', 'Times New Roman', serif;
   font-weight: 400;
   line-height: 1.5em;
-  margin: 0 0 34px 0;
+  margin: 0 0 1em 0;
 }
 
-p a {
+p a, li a {
   font-style: italic;
   text-decoration: none;
   color: #FF847C;
@@ -192,12 +208,12 @@ p a:hover {
 
 blockquote {
   font-family: "Lora", serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   width: 90%;
   margin: 2em auto;
   color: #555;
   font-style: italic;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 footer {
