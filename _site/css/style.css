@@ -10,28 +10,22 @@ em {
   font-style: italic;
 }
 
-p strong {
+p strong, li strong, blockquote strong {
   font-family: 'open sans', 'Arial', sans-serif;
   font-weight: 700;
 }
 
 img {
   margin: 0 auto 1em auto;
+  width: 100%;
 }
 
 li {
-  list-style: none;
   margin-left: 40px;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Lora', 'Times New Roman', serif;
   font-weight: 400;
-  line-height: 1em;
-}
-
-.center {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
+  line-height: 1.5em;
 }
 
 /*----------------HEADER
@@ -142,6 +136,15 @@ article {
   hypens: auto;
 }
 
+article h1 {
+  font-family: 'open sans', 'Helvetica', sans-serif;
+  font-weight: 700;
+  margin: 0 0 .25em 0;
+  width: auto;
+  padding: 0;
+  color: #29353a;
+}
+
 h3 {
   font-size: 2.618em;
   font-family: 'open sans', 'Helvetica', sans-serif;
@@ -179,7 +182,7 @@ h4 {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Lora', 'Times New Roman', serif;
   font-weight: 400;
   line-height: 1.5em;

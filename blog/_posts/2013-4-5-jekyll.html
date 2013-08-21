@@ -1,7 +1,7 @@
 ---
 layout: posts
 category: blog
-title: Jekyll Woes
+title: Jekyll
 date: April 5, 2013
 ---
 <p>My first apprenticeship task was to set up a blog using Jekyll and Github Pages, two completely foreign things with not a whooole lot of documentation behind them.  Though I barely managed and had lots of help, I have been able to both maintain the blog and make massive changes to its infrastructure.  Like anything, with exposure and a "dive in head first" mentality, learning is somewhat easy. Google searches also help.</p>
@@ -29,6 +29,6 @@ date: April 5, 2013
 <p>Yaml is touchy. I learned this the hard way. My posts were in their respective sections (the _posts folder of each "separate" blog) and I was updating everything just as I should. So, what was the problem?</p>
 <p>Punctuation. Punctuation was all the problem. This is something I never would have been able to figure out myself, because I do not think like a programmer. I am not hard wired to question the punctuation in anything, where it's placed, or what it could mean. All I know is that gramatically, it makes sense, and so I'm using it.</p>
 <p>At the top of every blog post you'll put in the "_posts" folder, you'll have some Yaml that will tell the post how it will be laid out, where it is going on the page, and what the title and date are.  These are all user-specified.  If there is any punctuation in these, it will mess up.  I had a post in my blog/_posts/ folder whose title contained a colon. That little colon completely derailed my blog.</p>
-<strong>So, how did I find the error?</strong>
+<h1>So, how did I find the error?</h1>
 <p>Run <code>jekyll --no-auto --server</code>, which specifically tells you where your errors may be, the file name/location, and line number. It'll also let you know which character is throwing a wrench into the delicate innerworkings of your site. Pretty sweet.</p>
 <p>Erasing the _site directory is another thing that you might want to do as well if you're encountering problems like this. That'll ensure that you're working from a clean slate if you have any corrupt files, and will help to avoid having to make changes to a bunch of files.</p>
