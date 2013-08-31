@@ -68,7 +68,7 @@ h1 a:hover {
   width: 100%;
   background-color: #2A363B;
   margin-bottom: 8em;
-  padding: .7em 2em;
+  padding: .9em 2em;
 }
 
 h2 {
@@ -89,7 +89,7 @@ h2 {
 .icons {
   width: 50%;
   display: inline-block;
-  font-size: 2em;
+  font-size: 1.5em;
   vertical-align: middle;
   display: inline-block;
   text-align: right;
