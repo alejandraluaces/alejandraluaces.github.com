@@ -25,7 +25,7 @@ img {
 ------------------------------------------------*/
 
 header {
-  background: url(/blog/images/floral-background.jpg) 50% 0 no-repeat fixed;
+  background: url(/blog/images/floral-background.png) 70% 0 no-repeat fixed;
   background-repeat: no-repeat;
   background-size: cover;
   -chrome-background-size: cover;
